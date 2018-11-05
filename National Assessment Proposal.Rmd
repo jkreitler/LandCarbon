@@ -1,13 +1,13 @@
 ---
 title: "USGS LandCarbon Sustained Assessment"
-authors:
-  + Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center)
-  + Todd J. Hawbaker (Research Geographer)
-  + Camille Stagg (Research Ecologist, National Wetland Science Center)
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
+authors: + Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center)
+  + Todd J. Hawbaker (Research Geographer) + Camille Stagg (Research Ecologist, National
+  Wetland Science Center)
 ---
 
-# I wonder if Jason can see this line of text.
 
 # USGS LandCarbon Sustained Assessment
 ### Research Proposal Overview
@@ -33,7 +33,8 @@ The 3-year project will consist of three priamry stages and will begin in earnes
 3. **Development of standardized reporting and publication:** Key to success of this project will be the development of a framework for publication of results. Unlike previous efforts, we will develop a standardized reporting system which is integrated within the actual modeling environment. The goal of this activity is two-fold. First, the integration of a standardized set of reports will reduce the "time-to-delivery" once all model runs and analysis has been finished. Second, this effort will provide an open and transparent reporting framework which will facilitate the peer review process. As such, activites related to reporting and publication, including development of online data access will be run in parallel with other scientific activies described in the previous section. To achieve this goal the project team will work with USGS experts in publications and online visualization to ensure assessment products can be provided in a timely manor.   
 
 
-
+### Modeling Approach
+We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
 
 
 
