@@ -7,6 +7,8 @@ authors:
 output: html_notebook
 ---
 
+# I wonder if Jason can see this line of text.
+
 # USGS LandCarbon Sustained Assessment
 ### Research Proposal Overview
 We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS's Land Use and Carbon Scenario Simulator (LUCAS) modeling framework.
