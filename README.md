@@ -1,6 +1,3 @@
-USGS LandCarbon Sustained Assessment
-================
-
 # USGS LandCarbon Sustained Assessment
 
 ### Research Proposal Overview
@@ -93,10 +90,10 @@ assessment in September 2021.
           - Thematic resolution
               - Forest classification (Can we link to LANDFIRE EVT or
                 some coarser classification?)
-          - Spatial extent â national? CONUS vs including AK and HI.
+          - Spatial extent - national? CONUS vs including AK and HI.
           - Spatial and temporal resolution
           - Reporting units
-  - Context â How does the LandCarbon assessment relate to other work?
+  - Context - How does the LandCarbon assessment relate to other work?
       - IPCC
       - EPA GHG inventory
       - FS FIA inventory
