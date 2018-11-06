@@ -1,15 +1,22 @@
 ---
 title: "USGS LandCarbon Sustained Assessment"
-output:
-  html_document:
-    df_print: paged
 authors: + Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center)
   + Todd J. Hawbaker (Research Geographer) + Camille Stagg (Research Ecologist, National
   Wetland Science Center)
+bibliography: references.bib
+csl: science.csl
+output:
+  md_document: 
+    github_document
+  html_notebook: default
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+always_allow_html: yes
 ---
+**Principal Investigators:** Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center); Todd J. Hawbaker (Research Geographer); Camille Stagg (Research Ecologist, National Wetland Science Center)
 
-
-# USGS LandCarbon Sustained Assessment
 ### Research Proposal Overview
 We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS's Land Use and Carbon Scenario Simulator (LUCAS) modeling framework.
 
@@ -19,7 +26,7 @@ The 3-year project will consist of three priamry stages and will begin in earnes
 1. **Planning and methodological development:** Similar to the original assessment, we will develop and outline a methodological approach aimed at developing a sustained LandCarbon assessment capability. This will be achieved by gathering relative experts in the fields of land change, ecosystem carbon processes, climate change, and natural disturbances for a series of focused workshops aimed at 
     a) identifying the major controlling processes to be considered, 
     b) prioritizing gaps in current knowledge for inclusion into the assessment, 
-    c) defining the boundaries of the assessment, and 
+    c) defining the boundaries of the assessment, 
     d) laying out a structured approach to produce repeatable and reprodibible results, and 
     e) developing a tiered system for updating future assessments where current knowledge gaps are prioritized for inclusion in subsequent versions.  
 
