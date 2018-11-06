@@ -6,4 +6,4 @@ Tasks:
 
 November 6, 2018: Jason Kreitler ~~to add~~ **added** a brief HPC computing paragraph to ..Proposal.rmd. 
 
-![](https://thm.seejh.com/thumbs/64.jpg)
+![it begins!](https://thm.seejh.com/thumbs/64.jpg)
