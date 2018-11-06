@@ -66,10 +66,6 @@ Similar to the original assessment, we will develop and outline a methodological
     
 ##### **Data collection, model development and implementation**
 This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:
-=======
-### High Performance Computing (Jason Kreitler)
-We will parallelize the LUCAS modeling framework used in this assessment to efficiently model the computationally intensive collection of model runs, scenarios, timesteps, and spatial scales required to meet the objectives of this study. The LUCAS model will be parallelized for a high performance computing (HPC) environment by spatially stratifying models into smaller regions and distributing these jobs across a large compute cluster like the USGS’s YETI high performance computer. Previous application of the LUCAS model on YETI allowed the simulation of land use change over a CONUS extent with more Monte Carlo replicates and at a finer resolution than previous examples (could cite data release). Using lessons learned from () and (sleeter CA paper) we further develop the ability of the LUCAS model to simulate and model land use change and carbon accounting. 
->>>>>>> b23b7287f47de4bd300cdb4bb030ec994d34cffe
 
 + Future scenario framework (RCPs, SSP, global mitigation scenarios),
 + Historical and future projected changes in weather and climate (PRISM, LOCA),
@@ -173,12 +169,12 @@ Key to success of this project will be the development of a framework for public
 
 
 ##### Critical data:
-	+ MTBS and BAECV?
-	  + Surface water extent ECV?
-	+ LANDFIRE veg, fuels, and disturbances (especially fuel treatments)?
-	+ NLCD/LCMAP?
-	+ Better wetland maps?
-  + Climate data - baseline and projected
++ MTBS and BAECV?
+	 + Surface water extent ECV?
++ LANDFIRE veg, fuels, and disturbances (especially fuel treatments)?
++ NLCD/LCMAP?
++ Better wetland maps?
++ Climate data - baseline and projected
 
 ##### LUCAS Model
 We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
@@ -194,6 +190,9 @@ We propose to use the USGS LUCAS modeling framework to conduct the assessment [@
   + Will YETI2 be online at EROS?
   + Cloud services?
 	  + Working archive for data, code, and models?
+
+High Performance Computing (Jason Kreitler)
+We will parallelize the LUCAS modeling framework used in this assessment to efficiently model the computationally intensive collection of model runs, scenarios, timesteps, and spatial scales required to meet the objectives of this study. The LUCAS model will be parallelized for a high performance computing (HPC) environment by spatially stratifying models into smaller regions and distributing these jobs across a large compute cluster like the USGS’s YETI high performance computer. Previous application of the LUCAS model on YETI allowed the simulation of land use change over a CONUS extent with more Monte Carlo replicates and at a finer resolution than previous examples (could cite data release). Using lessons learned from () and (sleeter CA paper) we further develop the ability of the LUCAS model to simulate and model land use change and carbon accounting. 
 	  
 ##### Data delivery and visualization (Sherba)
   + Input and output data
