@@ -34,8 +34,7 @@ USGS Biological Carbon Sequestration Program: Project Workplan
       - Camille Stagg,
       - Brady Coulvillion
   - Hydrologic Remote Sensing Branch (HRSB)
-      - Rachel
-Sleeter
+      - Rachel Sleeter
 
 ##### **Project Location:** All 50 States of the U.S.
 
