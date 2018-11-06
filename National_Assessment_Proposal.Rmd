@@ -3,12 +3,12 @@ title: "USGS Biological Carbon Sequestration Program: Project Workplan"
 bibliography: references.bib
 csl: science.csl
 output:
-  html_notebook: default
+  md_document: github_document
   pdf_document: default
   html_document:
     df_print: paged
   word_document: default
-  md_document: github_document
+  html_notebook: default
 always_allow_html: yes
 ---
 ##### **Study Title:** Sustained Assessment of Ecosystem Carbon Stocks and Fluxes for the United States
