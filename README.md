@@ -1,6 +1,6 @@
 # USGS LandCarbon Sustained Assessment
 
-Goal is to finalize USGS FY2019-FY2012 LandCarbon proposal.
+Goal is to finalize USGS FY2019-FY2021 LandCarbon proposal.
 
 Tasks:
 
