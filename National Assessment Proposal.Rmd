@@ -6,13 +6,13 @@ authors: + Benjamin M. Sleeter (Research Geographer, Western Geographic Science 
 bibliography: references.bib
 csl: science.csl
 output:
+  pdf_document: default
   md_document: 
     github_document
-  html_notebook: default
   html_document:
     df_print: paged
   word_document: default
-  pdf_document: default
+  html_notebook: default
 always_allow_html: yes
 ---
 **Principal Investigators:** Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center); Todd J. Hawbaker (Research Geographer); Camille Stagg (Research Ecologist, National Wetland Science Center)
@@ -43,7 +43,7 @@ The 3-year project will consist of three priamry stages and will begin in earnes
 ### Modeling Approach
 We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
 
-
+### High Performance Computing (Jason Kreitler)
 
 
 # Project Overview
