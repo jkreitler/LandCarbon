@@ -51,6 +51,7 @@ always_allow_html: yes
 ##### **Other Complimentary Funding Source(s):** NA
 
 
+<<<<<<< HEAD
 # A. Project Overview
 We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS's Land Use and Carbon Scenario Simulator (LUCAS) modeling framework. The 3-year project will consist of three priamry stages and will begin in earnest in the Winter/Spring of 2019. Culmination of this project will be achieved with publication and the release of an updated assessment in September 2021.  
 
@@ -65,6 +66,10 @@ Similar to the original assessment, we will develop and outline a methodological
     
 ##### **Data collection, model development and implementation**
 This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:
+=======
+### High Performance Computing (Jason Kreitler)
+We will parallelize the LUCAS modeling framework used in this assessment to efficiently model the computationally intensive collection of model runs, scenarios, timesteps, and spatial scales required to meet the objectives of this study. The LUCAS model will be parallelized for a high performance computing (HPC) environment by spatially stratifying models into smaller regions and distributing these jobs across a large compute cluster like the USGS’s YETI high performance computer. Previous application of the LUCAS model on YETI allowed the simulation of land use change over a CONUS extent with more Monte Carlo replicates and at a finer resolution than previous examples (could cite data release). Using lessons learned from () and (sleeter CA paper) we further develop the ability of the LUCAS model to simulate and model land use change and carbon accounting. 
+>>>>>>> b23b7287f47de4bd300cdb4bb030ec994d34cffe
 
 + Future scenario framework (RCPs, SSP, global mitigation scenarios),
 + Historical and future projected changes in weather and climate (PRISM, LOCA),
