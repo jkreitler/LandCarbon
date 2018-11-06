@@ -6,9 +6,8 @@ authors: + Benjamin M. Sleeter (Research Geographer, Western Geographic Science 
 bibliography: references.bib
 csl: science.csl
 output:
+  md_document: github_document
   pdf_document: default
-  md_document: 
-    github_document
   html_document:
     df_print: paged
   word_document: default

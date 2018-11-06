@@ -85,6 +85,8 @@ assessment in September 2021.
 We propose to use the USGS LUCAS modeling framework to conduct the
 assessment (*1*).
 
+### High Performance Computing (Jason Kreitler)
+
 # Project Overview
 
 **Structure of assessment**
