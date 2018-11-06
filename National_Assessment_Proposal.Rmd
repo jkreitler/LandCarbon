@@ -1,68 +1,85 @@
 ---
-title: "USGS LandCarbon Sustained Assessment"
-authors: + Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center)
-  + Todd J. Hawbaker (Research Geographer) + Camille Stagg (Research Ecologist, National
-  Wetland Science Center)
+title: "USGS Biological Carbon Sequestration Program: Project Workplan"
 bibliography: references.bib
 csl: science.csl
 output:
-  md_document: github_document
+  html_notebook: default
   pdf_document: default
   html_document:
     df_print: paged
   word_document: default
-  html_notebook: default
+  md_document: github_document
 always_allow_html: yes
 ---
-**Principal Investigators:** Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center); Todd J. Hawbaker (Research Geographer); Camille Stagg (Research Ecologist, National Wetland Science Center)
+##### **Study Title:** Sustained Assessment of Ecosystem Carbon Stocks and Fluxes for the United States
 
-### Research Proposal Overview
-We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS's Land Use and Carbon Scenario Simulator (LUCAS) modeling framework.
+##### **Study Start Date:** October, 2018
 
-### Research Approach
-The 3-year project will consist of three priamry stages and will begin in earnest in the Winter/Spring of 2019. Culmination of this project will be achieved with publication and the release of an updated assessment in September 2021.  
+##### **Study End Date:** September, 2021
 
-1. **Planning and methodological development:** Similar to the original assessment, we will develop and outline a methodological approach aimed at developing a sustained LandCarbon assessment capability. This will be achieved by gathering relative experts in the fields of land change, ecosystem carbon processes, climate change, and natural disturbances for a series of focused workshops aimed at 
-    a) identifying the major controlling processes to be considered, 
-    b) prioritizing gaps in current knowledge for inclusion into the assessment, 
-    c) defining the boundaries of the assessment, 
-    d) laying out a structured approach to produce repeatable and reprodibible results, and 
-    e) developing a tiered system for updating future assessments where current knowledge gaps are prioritized for inclusion in subsequent versions.  
+##### **Co-Project Chiefs:**
++ Benjamin M. Sleeter; Supervisory Research Geographer, Western Geographic Science Center; bsleeter@usgs.gov
++ Todd J. Hawbaker; Supervisory Research Ecologist, Geosciences and Environmental Change Science Center; tjhawbaker@usgs.gov
 
-2. **Data collection, model development and implementation:** This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:
-    a) Future scenario framework (RCPs, SSP, global mitigation scenarios),
-    b) Historical and future projected changes in weather and climate (PRISM, LOCA),
-    c) Historical and projected rates of land use, land-use change, land management (LC Trends, NLCD, LCMAP),
-    d) Natural disturbance regimes and their projected changes due to climate and land use (MTBS, Landfire, Burn Area ECV),
-    e) Initial conditions, including current land-use/land-cover and vegetation composition (Landfire, NLCD, LCMAP).
+##### **Study Personal**
++ Headquarters
+  + Zhiliang Zhu, Project Chief Biological Carbon Sequestration Project; zzhu@usgs.gov
+  + Bradley Reed, Program Coordinator Land Change Science, reed@usgs.gov
++ Western Geographic Science Center (WGSC)
+  + Benjamin M. Sleeter, Research Geographer; bsleeter@usgs.gov
+  + Jinxun Liu, Research Physical Scientist; jxliu@usgs.gov
+  + Jason Kreitler; Research Geographer; jkreitler@usgs.gov
+  + Paul Selmants; Research Physical Scientist; pselmants@usgs.gov
+  + Jason Sherba; Geographer; jsherba@usgs.gov
++ Geosciences and Environmental Change Science Center (GECSC)
+  + Todd J. Hawbaker
+  + Paul Henne
++ Wetland and Aquatic Research Center (WARC)
+  + Camille Stagg,
+  + Brady Coulvillion
++ Hydrologic Remote Sensing Branch (HRSB)
+  + Rachel Sleeter
+  
+##### **Project Location:** All 50 States of the U.S.
 
-3. **Development of standardized reporting and publication:** Key to success of this project will be the development of a framework for publication of results. Unlike previous efforts, we will develop a standardized reporting system which is integrated within the actual modeling environment. The goal of this activity is two-fold. First, the integration of a standardized set of reports will reduce the "time-to-delivery" once all model runs and analysis has been finished. Second, this effort will provide an open and transparent reporting framework which will facilitate the peer review process. As such, activites related to reporting and publication, including development of online data access will be run in parallel with other scientific activies described in the previous section. To achieve this goal the project team will work with USGS experts in publications and online visualization to ensure assessment products can be provided in a timely manor.   
+##### **Public Access to Data:** All data, models, and reports will be produced, published, and archived using ScienceBase
+##### **USGS LandCarbon Funding History:** This is proposed as a new 3-year research project.
+##### **USGS LandCarbon Funding Request:** $700k (FY2019), $750k (FY2020), $800k (FY2021)
+##### **Associated & Linked Studies:**
++ Land Change Science Research and Development Program (PI B.M. Sleeter)
+
+##### **Other Complimentary Funding Source(s):** NA
 
 
-### Modeling Approach
-We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
+# A. Project Overview
+We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS's Land Use and Carbon Scenario Simulator (LUCAS) modeling framework. The 3-year project will consist of three priamry stages and will begin in earnest in the Winter/Spring of 2019. Culmination of this project will be achieved with publication and the release of an updated assessment in September 2021.  
 
-### High Performance Computing (Jason Kreitler)
+##### **Planning and scope of assessment**
+Similar to the original assessment, we will develop and outline a methodological approach aimed at developing a sustained LandCarbon assessment capability. This will be achieved by gathering relative experts in the fields of land change, ecosystem carbon processes, climate change, and natural disturbances for a series of focused workshops aimed at:
 
++ identifying the major controlling processes to be considered, 
++ prioritizing gaps in current knowledge for inclusion into the assessment, 
++ defining the boundaries of the assessment, 
++ laying out a structured approach to produce repeatable and reprodibible results, and 
++ developing a tiered system for updating future assessments where current knowledge gaps are prioritized for inclusion in subsequent versions.  
+    
+##### **Data collection, model development and implementation**
+This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:
 
-# Project Overview
++ Future scenario framework (RCPs, SSP, global mitigation scenarios),
++ Historical and future projected changes in weather and climate (PRISM, LOCA),
++ Historical and projected rates of land use, land-use change, land management (LC Trends, NLCD, LCMAP),
++ Natural disturbance regimes and their projected changes due to climate and land use (MTBS, Landfire, Burn Area ECV),
++ Initial conditions, including current land-use/land-cover and vegetation composition (Landfire, NLCD, LCMAP).
 
-**Structure of assessment**  
+##### **Development of standardized reporting and publication**
+Key to success of this project will be the development of a framework for publication of results. Unlike previous efforts, we will develop a standardized reporting system which is integrated within the actual modeling environment. The goal of this activity is two-fold. First, the integration of a standardized set of reports will reduce the "time-to-delivery" once all model runs and analysis has been finished. Second, this effort will provide an open and transparent reporting framework which will facilitate the peer review process. As such, activites related to reporting and publication, including development of online data access will be run in parallel with other scientific activies described in the previous section. To achieve this goal the project team will work with USGS experts in publications and online visualization to ensure assessment products can be provided in a timely manor. 
 
+### Statement of Problem
 * Purpose, justification, and context for the assessment (Zhu and Reed) 
   + Purpose/goals
   + Justification
     + EISA 2007 requirements/interpretation
-  + Scope
-    + What is included and what isn’t?
-    + Carbon pools and fluxes considered
-      + Live, DOM, Soil, HWP?
-    + Thematic resolution
-      + Forest classification (Can we link to LANDFIRE EVT or some coarser classification?)
-    + Spatial extent – national?  CONUS vs including AK and HI.
-    + Spatial and temporal resolution
-    + Reporting units
-
 * Context – How does the LandCarbon assessment relate to other work?
   + IPCC
   + EPA GHG inventory
@@ -71,27 +88,47 @@ We propose to use the USGS LUCAS modeling framework to conduct the assessment [@
   + National Climate Change Assessment
   + LandCarbon v1
 
-* Modeling Approach
-  + LUCAS model as a modeling framework.
-    + External models either linked or coupled. 
-    + Minimize amount of work that can not be connected (in code).
-    + Statistical 
+### Objective(s)
 
+### Short Project Description
 
-**Main findings (Everyone)**
+### Communication Plan
 
-* Baseline carbon stocks and fluxes
-  + Nationally, and by ecoregion and state
-  + Public vs. private lands
-  + How have they changed over time?
-  + Attribution - In response to what drivers?
-  + Uncertainties
-  + How do they compare to fossil fuel emissions?
-* Projected change under business as usual scenario with climate change projections
-  + Where are carbon stocks most vulnerable?
-  + Mitigation scenarios to enhance biological carbon sequestration
-  + Where can we protect existing stocks and enhance future stocks?
+### Relevance
 
+### Stakeholders
+
+### What are the compelling safety, health, and/or economic implications of this science?
+### Why does this research matter to society?
+
+# B. Task 1 Workplan
+**Title of Task 1:**  
+**Task Leaders:**  
+**Phone:**  
+**email:**  
+
+### Task Funding History
+
+### Task Personnel
+
+### External Collaborators and Partners
+* Partners:
+	+ EPA?
+	+ LANDFIRE fuels team if going the FIA-FVS route
+  + FIA (Forest Health Assessment and Applied Science Team (FHAAST) for Insect disturbances)
+
+### Task Objectives
+
+### Materials & Methods
+
+##### What is included and what isn’t?
++ Carbon pools and fluxes considered
+  + Live, DOM, Soil, HWP?
++ Thematic resolution
+  + Forest classification (Can we link to LANDFIRE EVT or some coarser classification?)
++ Spatial extent – national?  CONUS vs including AK and HI.
++ Spatial and temporal resolution
++ Reporting units
 
 * Integrated modeling approach (Sleeter)
   + focus on integration of carbon dynamics with land/water surface dynamics?
@@ -123,22 +160,14 @@ We propose to use the USGS LUCAS modeling framework to conduct the assessment [@
   + Agriculture?
   + DOI lands
   + Economics of mitigation actions (Bagstad and Kreitler and Pindilli)?
-* Data delivery and visualization (Sherba)
-  + Input and output data
-  + Models/source code (if public) or executables
-  + Visualization tools
+
 * Planned topics for future assessments
   + Disturbances
   + Insects v3 (with FS FHAAST)
   + Drought v3 or v4 (Henne and Craig Allen’s team)
 
-* Critical infrastructure:
-  + Computing power and shared storage?  
-  + Will YETI2 be online at EROS?
-  + Cloud services?
-	  + Working archive for data, code, and models?
 
-* Critical data:
+##### Critical data:
 	+ MTBS and BAECV?
 	  + Surface water extent ECV?
 	+ LANDFIRE veg, fuels, and disturbances (especially fuel treatments)?
@@ -146,74 +175,33 @@ We propose to use the USGS LUCAS modeling framework to conduct the assessment [@
 	+ Better wetland maps?
   + Climate data - baseline and projected
 
-* Partners:
-	+ EPA?
-	+ LANDFIRE fuels team if going the FIA-FVS route
-  + FIA (Forest Health Assessment and Applied Science Team (FHAAST) for Insect disturbances)
+##### LUCAS Model
+We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
+* Modeling Approach
+  + LUCAS model as a modeling framework.
+    + External models either linked or coupled. 
+    + Minimize amount of work that can not be connected (in code).
+    + Statistical 
 
+##### High Performance Computing (Jason Kreitler)
+* Critical infrastructure:
+  + Computing power and shared storage?  
+  + Will YETI2 be online at EROS?
+  + Cloud services?
+	  + Working archive for data, code, and models?
+	  
+##### Data delivery and visualization (Sherba)
+  + Input and output data
+  + Models/source code (if public) or executables
+  + Visualization tools
 
+## Timeline
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Project Staff
-+ Headquarters
-  + Zhiliang Zhu, Project Chief Biological Carbon Sequestration Project; zzhu@usgs.gov
-  + Bradley Reed, Program Coordinator Land Change Science, reed@usgs.gov
-+ Western Geographic Science Center (WGSC)
-  + Benjamin M. Sleeter, Research Geographer; bsleeter@usgs.gov
-  + Jinxun Liu, Research Physical Scientist; jxliu@usgs.gov
-  + Jason Kreitler; Research Geographer; jkreitler@usgs.gov
-  + Paul Selmants; Research Physical Scientist; pselmants@usgs.gov
-  + Jason Sherba; Geographer; jsherba@usgs.gov
-+ Geosciences and Environmental Change Science Center (GECSC)
-  + Todd J. Hawbaker
-  + Paul Henne
-+ Wetland and Aquatic Research Center (WARC)
-  + Camille Stagg,
-  + Brady Coulvillion
-+ Hydrologic Remote Sensing Branch (HRSB)
-  + Rachel Sleeter
-
-
-# Goals & Objectives
-
-The goal of this research activity is to a) develop a standardized methodological approach to assess changes in carbon storage and flux in ecosystems of the United States, and b) implement the methodology and produce and annual series of reports describing changes in ecosystem carbon balance and the relative effects of major controlling processes.
-
-+ Goal 1: Develop a repeatable and transparant methodology to assess ecosystem carbon stocks and fluxes for ecosystems of the United States.
-  + Objective #1:
-  + Objective #2:
-+ Goal 2: Describe recent historical changes in ecosystem carbon balance and the major controlling processes.
-  + Objective #1:
-  + Objective #2:
-+ Goal 3: Develop alternative future projections based on alternative scenarios.
-  + Objective #1:
-  + Objective #2:
-
-# Scope
-
-
-### Temporal Domain
-Them temporal domain covers the recent historical past (Landsat epoch) as well as projections into the future.
-
-### Spatial Domain
-The scope of this research activity spans terrestrial and aquatic ecosystems of the United States.
-
-# Phase 1
-
-# Deliverables
-
-# Budget
+# C. Budget
 
 # References
+
+
+
+
+

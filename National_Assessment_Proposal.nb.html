@@ -11,7 +11,7 @@
 
 
 
-<title>USGS LandCarbon Sustained Assessment</title>
+<title>USGS Biological Carbon Sequestration Program: Project Workplan</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -1693,50 +1693,112 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">USGS LandCarbon Sustained Assessment</h1>
+<h1 class="title toc-ignore">USGS Biological Carbon Sequestration Program: Project Workplan</h1>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<p><strong>Principal Investigators:</strong> Benjamin M. Sleeter (Research Geographer, Western Geographic Science Center); Todd J. Hawbaker (Research Geographer); Camille Stagg (Research Ecologist, National Wetland Science Center)</p>
-<div id="research-proposal-overview" class="section level3">
-<h3>Research Proposal Overview</h3>
-<p>We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS’s Land Use and Carbon Scenario Simulator (LUCAS) modeling framework.</p>
+<div id="study-title-sustained-assessment-of-ecosystem-carbon-stocks-and-fluxes-for-the-united-states" class="section level5">
+<h5><strong>Study Title:</strong> Sustained Assessment of Ecosystem Carbon Stocks and Fluxes for the United States</h5>
 </div>
-<div id="research-approach" class="section level3">
-<h3>Research Approach</h3>
-<p>The 3-year project will consist of three priamry stages and will begin in earnest in the Winter/Spring of 2019. Culmination of this project will be achieved with publication and the release of an updated assessment in September 2021.</p>
-<ol style="list-style-type: decimal">
-<li><strong>Planning and methodological development:</strong> Similar to the original assessment, we will develop and outline a methodological approach aimed at developing a sustained LandCarbon assessment capability. This will be achieved by gathering relative experts in the fields of land change, ecosystem carbon processes, climate change, and natural disturbances for a series of focused workshops aimed at
-<ol style="list-style-type: lower-alpha">
+<div id="study-start-date-october-2018" class="section level5">
+<h5><strong>Study Start Date:</strong> October, 2018</h5>
+</div>
+<div id="study-end-date-september-2021" class="section level5">
+<h5><strong>Study End Date:</strong> September, 2021</h5>
+</div>
+<div id="co-project-chiefs" class="section level5">
+<h5><strong>Co-Project Chiefs:</strong></h5>
+<ul>
+<li>Benjamin M. Sleeter; Supervisory Research Geographer, Western Geographic Science Center; <a href="mailto:bsleeter@usgs.gov">bsleeter@usgs.gov</a></li>
+<li>Todd J. Hawbaker; Supervisory Research Ecologist, Geosciences and Environmental Change Science Center; <a href="mailto:tjhawbaker@usgs.gov">tjhawbaker@usgs.gov</a></li>
+</ul>
+</div>
+<div id="study-personal" class="section level5">
+<h5><strong>Study Personal</strong></h5>
+<ul>
+<li>Headquarters
+<ul>
+<li>Zhiliang Zhu, Project Chief Biological Carbon Sequestration Project; <a href="mailto:zzhu@usgs.gov">zzhu@usgs.gov</a></li>
+<li>Bradley Reed, Program Coordinator Land Change Science, <a href="mailto:reed@usgs.gov">reed@usgs.gov</a></li>
+</ul></li>
+<li>Western Geographic Science Center (WGSC)
+<ul>
+<li>Benjamin M. Sleeter, Research Geographer; <a href="mailto:bsleeter@usgs.gov">bsleeter@usgs.gov</a></li>
+<li>Jinxun Liu, Research Physical Scientist; <a href="mailto:jxliu@usgs.gov">jxliu@usgs.gov</a></li>
+<li>Jason Kreitler; Research Geographer; <a href="mailto:jkreitler@usgs.gov">jkreitler@usgs.gov</a></li>
+<li>Paul Selmants; Research Physical Scientist; <a href="mailto:pselmants@usgs.gov">pselmants@usgs.gov</a></li>
+<li>Jason Sherba; Geographer; <a href="mailto:jsherba@usgs.gov">jsherba@usgs.gov</a></li>
+</ul></li>
+<li>Geosciences and Environmental Change Science Center (GECSC)
+<ul>
+<li>Todd J. Hawbaker</li>
+<li>Paul Henne</li>
+</ul></li>
+<li>Wetland and Aquatic Research Center (WARC)
+<ul>
+<li>Camille Stagg,</li>
+<li>Brady Coulvillion</li>
+</ul></li>
+<li>Hydrologic Remote Sensing Branch (HRSB)
+<ul>
+<li>Rachel Sleeter</li>
+</ul></li>
+</ul>
+</div>
+<div id="project-location-all-50-states-of-the-u.s." class="section level5">
+<h5><strong>Project Location:</strong> All 50 States of the U.S.</h5>
+</div>
+<div id="public-access-to-data-all-data-models-and-reports-will-be-produced-published-and-archived-using-sciencebase" class="section level5">
+<h5><strong>Public Access to Data:</strong> All data, models, and reports will be produced, published, and archived using ScienceBase</h5>
+</div>
+<div id="usgs-landcarbon-funding-history-this-is-proposed-as-a-new-3-year-research-project." class="section level5">
+<h5><strong>USGS LandCarbon Funding History:</strong> This is proposed as a new 3-year research project.</h5>
+</div>
+<div id="usgs-landcarbon-funding-request-700k-fy2019-750k-fy2020-800k-fy2021" class="section level5">
+<h5><strong>USGS LandCarbon Funding Request:</strong> $700k (FY2019), $750k (FY2020), $800k (FY2021)</h5>
+</div>
+<div id="associated-linked-studies" class="section level5">
+<h5><strong>Associated &amp; Linked Studies:</strong></h5>
+<ul>
+<li>Land Change Science Research and Development Program (PI B.M. Sleeter)</li>
+</ul>
+</div>
+<div id="other-complimentary-funding-sources-na" class="section level5">
+<h5><strong>Other Complimentary Funding Source(s):</strong> NA</h5>
+</div>
+<div id="a.-project-overview" class="section level1">
+<h1>A. Project Overview</h1>
+<p>We propose a 3-year research project aimed at developing a state-of-the-art capability to assess carbon storage and flux in ecosystems of the United States. This project will build on the experience and lesons-learned from the first USGS Biological Carbon Sequestration Assessment and strive to make a number of scientific and methodological improvements. At its core, this new assessment activity will leverge a number of new and innovative research capabilities developed since completion of the first assessment, including integration within the USGS’s Land Use and Carbon Scenario Simulator (LUCAS) modeling framework. The 3-year project will consist of three priamry stages and will begin in earnest in the Winter/Spring of 2019. Culmination of this project will be achieved with publication and the release of an updated assessment in September 2021.</p>
+<div id="planning-and-scope-of-assessment" class="section level5">
+<h5><strong>Planning and scope of assessment</strong></h5>
+<p>Similar to the original assessment, we will develop and outline a methodological approach aimed at developing a sustained LandCarbon assessment capability. This will be achieved by gathering relative experts in the fields of land change, ecosystem carbon processes, climate change, and natural disturbances for a series of focused workshops aimed at:</p>
+<ul>
 <li>identifying the major controlling processes to be considered,</li>
 <li>prioritizing gaps in current knowledge for inclusion into the assessment,</li>
 <li>defining the boundaries of the assessment,</li>
 <li>laying out a structured approach to produce repeatable and reprodibible results, and</li>
 <li>developing a tiered system for updating future assessments where current knowledge gaps are prioritized for inclusion in subsequent versions.</li>
-</ol></li>
-<li><strong>Data collection, model development and implementation:</strong> This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:
-<ol style="list-style-type: lower-alpha">
+</ul>
+</div>
+<div id="data-collection-model-development-and-implementation" class="section level5">
+<h5><strong>Data collection, model development and implementation</strong></h5>
+<p>This phase of the research will begin in ernest in the Summer of 2019 and extend throughout the duration of the project. Given the scale and scope of the proposed project, we propose to minimize new data generation where possible by leverging current publically available resources whenever possible. For example, existing downscaled climate data will be utilized, as opposed to generating new datasets. Similarily, scenario projections will be based on the latest publically available databases consistent with IPCC research activites. Where no current data exists (e.g. climate-driven projections of disturbances) we will leverage approaches described in literature. Data collection activities generally include the following categories:</p>
+<ul>
 <li>Future scenario framework (RCPs, SSP, global mitigation scenarios),</li>
 <li>Historical and future projected changes in weather and climate (PRISM, LOCA),</li>
 <li>Historical and projected rates of land use, land-use change, land management (LC Trends, NLCD, LCMAP),</li>
 <li>Natural disturbance regimes and their projected changes due to climate and land use (MTBS, Landfire, Burn Area ECV),</li>
 <li>Initial conditions, including current land-use/land-cover and vegetation composition (Landfire, NLCD, LCMAP).</li>
-</ol></li>
-<li><strong>Development of standardized reporting and publication:</strong> Key to success of this project will be the development of a framework for publication of results. Unlike previous efforts, we will develop a standardized reporting system which is integrated within the actual modeling environment. The goal of this activity is two-fold. First, the integration of a standardized set of reports will reduce the “time-to-delivery” once all model runs and analysis has been finished. Second, this effort will provide an open and transparent reporting framework which will facilitate the peer review process. As such, activites related to reporting and publication, including development of online data access will be run in parallel with other scientific activies described in the previous section. To achieve this goal the project team will work with USGS experts in publications and online visualization to ensure assessment products can be provided in a timely manor.</li>
-</ol>
+</ul>
 </div>
-<div id="modeling-approach" class="section level3">
-<h3>Modeling Approach</h3>
-<p>We propose to use the USGS LUCAS modeling framework to conduct the assessment <span class="citation">(<em>1</em>)</span>.</p>
+<div id="development-of-standardized-reporting-and-publication" class="section level5">
+<h5><strong>Development of standardized reporting and publication</strong></h5>
+<p>Key to success of this project will be the development of a framework for publication of results. Unlike previous efforts, we will develop a standardized reporting system which is integrated within the actual modeling environment. The goal of this activity is two-fold. First, the integration of a standardized set of reports will reduce the “time-to-delivery” once all model runs and analysis has been finished. Second, this effort will provide an open and transparent reporting framework which will facilitate the peer review process. As such, activites related to reporting and publication, including development of online data access will be run in parallel with other scientific activies described in the previous section. To achieve this goal the project team will work with USGS experts in publications and online visualization to ensure assessment products can be provided in a timely manor.</p>
 </div>
-<div id="high-performance-computing-jason-kreitler" class="section level3">
-<h3>High Performance Computing (Jason Kreitler)</h3>
-</div>
-<div id="project-overview" class="section level1">
-<h1>Project Overview</h1>
-<p><strong>Structure of assessment</strong></p>
+<div id="statement-of-problem" class="section level3">
+<h3>Statement of Problem</h3>
 <ul>
 <li>Purpose, justification, and context for the assessment (Zhu and Reed)
 <ul>
@@ -1744,21 +1806,6 @@ $(document).ready(function () {
 <li>Justification
 <ul>
 <li>EISA 2007 requirements/interpretation</li>
-</ul></li>
-<li>Scope
-<ul>
-<li>What is included and what isn’t?</li>
-<li>Carbon pools and fluxes considered
-<ul>
-<li>Live, DOM, Soil, HWP?</li>
-</ul></li>
-<li>Thematic resolution
-<ul>
-<li>Forest classification (Can we link to LANDFIRE EVT or some coarser classification?)</li>
-</ul></li>
-<li>Spatial extent – national? CONUS vs including AK and HI.</li>
-<li>Spatial and temporal resolution</li>
-<li>Reporting units</li>
 </ul></li>
 </ul></li>
 <li>Context – How does the LandCarbon assessment relate to other work?
@@ -1770,33 +1817,72 @@ $(document).ready(function () {
 <li>National Climate Change Assessment</li>
 <li>LandCarbon v1</li>
 </ul></li>
-<li>Modeling Approach
+</ul>
+</div>
+<div id="objectives" class="section level3">
+<h3>Objective(s)</h3>
+</div>
+<div id="short-project-description" class="section level3">
+<h3>Short Project Description</h3>
+</div>
+<div id="communication-plan" class="section level3">
+<h3>Communication Plan</h3>
+</div>
+<div id="relevance" class="section level3">
+<h3>Relevance</h3>
+</div>
+<div id="stakeholders" class="section level3">
+<h3>Stakeholders</h3>
+</div>
+<div id="what-are-the-compelling-safety-health-andor-economic-implications-of-this-science" class="section level3">
+<h3>What are the compelling safety, health, and/or economic implications of this science?</h3>
+</div>
+<div id="why-does-this-research-matter-to-society" class="section level3">
+<h3>Why does this research matter to society?</h3>
+</div>
+</div>
+<div id="b.-task-1-workplan" class="section level1">
+<h1>B. Task 1 Workplan</h1>
+<p><strong>Title of Task 1:</strong><br />
+<strong>Task Leaders:</strong><br />
+<strong>Phone:</strong><br />
+<strong>email:</strong></p>
+<div id="task-funding-history" class="section level3">
+<h3>Task Funding History</h3>
+</div>
+<div id="task-personnel" class="section level3">
+<h3>Task Personnel</h3>
+</div>
+<div id="external-collaborators-and-partners" class="section level3">
+<h3>External Collaborators and Partners</h3>
 <ul>
-<li>LUCAS model as a modeling framework.
+<li>Partners:
 <ul>
-<li>External models either linked or coupled.</li>
-<li>Minimize amount of work that can not be connected (in code).</li>
-<li>Statistical</li>
-</ul></li>
+<li>EPA?</li>
+<li>LANDFIRE fuels team if going the FIA-FVS route</li>
+<li>FIA (Forest Health Assessment and Applied Science Team (FHAAST) for Insect disturbances)</li>
 </ul></li>
 </ul>
-<p><strong>Main findings (Everyone)</strong></p>
+</div>
+<div id="task-objectives" class="section level3">
+<h3>Task Objectives</h3>
+</div>
+<div id="materials-methods" class="section level3">
+<h3>Materials &amp; Methods</h3>
+<div id="what-is-included-and-what-isnt" class="section level5">
+<h5>What is included and what isn’t?</h5>
 <ul>
-<li>Baseline carbon stocks and fluxes
+<li>Carbon pools and fluxes considered
 <ul>
-<li>Nationally, and by ecoregion and state</li>
-<li>Public vs. private lands</li>
-<li>How have they changed over time?</li>
-<li>Attribution - In response to what drivers?</li>
-<li>Uncertainties</li>
-<li>How do they compare to fossil fuel emissions?</li>
+<li>Live, DOM, Soil, HWP?</li>
 </ul></li>
-<li>Projected change under business as usual scenario with climate change projections
+<li>Thematic resolution
 <ul>
-<li>Where are carbon stocks most vulnerable?</li>
-<li>Mitigation scenarios to enhance biological carbon sequestration</li>
-<li>Where can we protect existing stocks and enhance future stocks?</li>
+<li>Forest classification (Can we link to LANDFIRE EVT or some coarser classification?)</li>
 </ul></li>
+<li>Spatial extent – national? CONUS vs including AK and HI.</li>
+<li>Spatial and temporal resolution</li>
+<li><p>Reporting units</p></li>
 <li>Integrated modeling approach (Sleeter)
 <ul>
 <li>focus on integration of carbon dynamics with land/water surface dynamics?</li>
@@ -1837,18 +1923,32 @@ $(document).ready(function () {
 <li>DOI lands</li>
 <li>Economics of mitigation actions (Bagstad and Kreitler and Pindilli)?</li>
 </ul></li>
-<li>Data delivery and visualization (Sherba)
-<ul>
-<li>Input and output data</li>
-<li>Models/source code (if public) or executables</li>
-<li>Visualization tools</li>
-</ul></li>
 <li>Planned topics for future assessments
 <ul>
 <li>Disturbances</li>
 <li>Insects v3 (with FS FHAAST)</li>
 <li>Drought v3 or v4 (Henne and Craig Allen’s team)</li>
 </ul></li>
+</ul>
+</div>
+<div id="critical-data" class="section level5">
+<h5>Critical data:</h5>
+<pre><code>+ MTBS and BAECV?
+  + Surface water extent ECV?
++ LANDFIRE veg, fuels, and disturbances (especially fuel treatments)?
++ NLCD/LCMAP?
++ Better wetland maps?</code></pre>
+<ul>
+<li>Climate data - baseline and projected</li>
+</ul>
+</div>
+<div id="lucas-model" class="section level5">
+<h5>LUCAS Model</h5>
+<p>We propose to use the USGS LUCAS modeling framework to conduct the assessment <span class="citation">(<em>1</em>)</span>. * Modeling Approach + LUCAS model as a modeling framework. + External models either linked or coupled. + Minimize amount of work that can not be connected (in code). + Statistical</p>
+</div>
+<div id="high-performance-computing-jason-kreitler" class="section level5">
+<h5>High Performance Computing (Jason Kreitler)</h5>
+<ul>
 <li>Critical infrastructure:
 <ul>
 <li>Computing power and shared storage?<br />
@@ -1859,97 +1959,23 @@ $(document).ready(function () {
 <li>Working archive for data, code, and models?</li>
 </ul></li>
 </ul></li>
-<li>Critical data:
-<ul>
-<li>MTBS and BAECV?
-<ul>
-<li>Surface water extent ECV?</li>
-</ul></li>
-<li>LANDFIRE veg, fuels, and disturbances (especially fuel treatments)?</li>
-<li>NLCD/LCMAP?</li>
-<li>Better wetland maps?</li>
-<li>Climate data - baseline and projected</li>
-</ul></li>
-<li>Partners:
-<ul>
-<li>EPA?</li>
-<li>LANDFIRE fuels team if going the FIA-FVS route</li>
-<li>FIA (Forest Health Assessment and Applied Science Team (FHAAST) for Insect disturbances)</li>
-</ul></li>
 </ul>
 </div>
-<div id="project-staff" class="section level1">
-<h1>Project Staff</h1>
+<div id="data-delivery-and-visualization-sherba" class="section level5">
+<h5>Data delivery and visualization (Sherba)</h5>
 <ul>
-<li>Headquarters
-<ul>
-<li>Zhiliang Zhu, Project Chief Biological Carbon Sequestration Project; <a href="mailto:zzhu@usgs.gov">zzhu@usgs.gov</a></li>
-<li>Bradley Reed, Program Coordinator Land Change Science, <a href="mailto:reed@usgs.gov">reed@usgs.gov</a></li>
-</ul></li>
-<li>Western Geographic Science Center (WGSC)
-<ul>
-<li>Benjamin M. Sleeter, Research Geographer; <a href="mailto:bsleeter@usgs.gov">bsleeter@usgs.gov</a></li>
-<li>Jinxun Liu, Research Physical Scientist; <a href="mailto:jxliu@usgs.gov">jxliu@usgs.gov</a></li>
-<li>Jason Kreitler; Research Geographer; <a href="mailto:jkreitler@usgs.gov">jkreitler@usgs.gov</a></li>
-<li>Paul Selmants; Research Physical Scientist; <a href="mailto:pselmants@usgs.gov">pselmants@usgs.gov</a></li>
-<li>Jason Sherba; Geographer; <a href="mailto:jsherba@usgs.gov">jsherba@usgs.gov</a></li>
-</ul></li>
-<li>Geosciences and Environmental Change Science Center (GECSC)
-<ul>
-<li>Todd J. Hawbaker</li>
-<li>Paul Henne</li>
-</ul></li>
-<li>Wetland and Aquatic Research Center (WARC)
-<ul>
-<li>Camille Stagg,</li>
-<li>Brady Coulvillion</li>
-</ul></li>
-<li>Hydrologic Remote Sensing Branch (HRSB)
-<ul>
-<li>Rachel Sleeter</li>
-</ul></li>
+<li>Input and output data</li>
+<li>Models/source code (if public) or executables</li>
+<li>Visualization tools</li>
 </ul>
 </div>
-<div id="goals-objectives" class="section level1">
-<h1>Goals &amp; Objectives</h1>
-<p>The goal of this research activity is to a) develop a standardized methodological approach to assess changes in carbon storage and flux in ecosystems of the United States, and b) implement the methodology and produce and annual series of reports describing changes in ecosystem carbon balance and the relative effects of major controlling processes.</p>
-<ul>
-<li>Goal 1: Develop a repeatable and transparant methodology to assess ecosystem carbon stocks and fluxes for ecosystems of the United States.
-<ul>
-<li>Objective #1:</li>
-<li>Objective #2:</li>
-</ul></li>
-<li>Goal 2: Describe recent historical changes in ecosystem carbon balance and the major controlling processes.
-<ul>
-<li>Objective #1:</li>
-<li>Objective #2:</li>
-</ul></li>
-<li>Goal 3: Develop alternative future projections based on alternative scenarios.
-<ul>
-<li>Objective #1:</li>
-<li>Objective #2:</li>
-</ul></li>
-</ul>
 </div>
-<div id="scope" class="section level1">
-<h1>Scope</h1>
-<div id="temporal-domain" class="section level3">
-<h3>Temporal Domain</h3>
-<p>Them temporal domain covers the recent historical past (Landsat epoch) as well as projections into the future.</p>
-</div>
-<div id="spatial-domain" class="section level3">
-<h3>Spatial Domain</h3>
-<p>The scope of this research activity spans terrestrial and aquatic ecosystems of the United States.</p>
+<div id="timeline" class="section level2">
+<h2>Timeline</h2>
 </div>
 </div>
-<div id="phase-1" class="section level1">
-<h1>Phase 1</h1>
-</div>
-<div id="deliverables" class="section level1">
-<h1>Deliverables</h1>
-</div>
-<div id="budget" class="section level1">
-<h1>Budget</h1>
+<div id="c.-budget" class="section level1">
+<h1>C. Budget</h1>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>
@@ -1961,7 +1987,7 @@ $(document).ready(function () {
 </div>
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlVTR1MgTGFuZENhcmJvbiBTdXN0YWluZWQgQXNzZXNzbWVudCINCmF1dGhvcnM6ICsgQmVuamFtaW4gTS4gU2xlZXRlciAoUmVzZWFyY2ggR2VvZ3JhcGhlciwgV2VzdGVybiBHZW9ncmFwaGljIFNjaWVuY2UgQ2VudGVyKQ0KICArIFRvZGQgSi4gSGF3YmFrZXIgKFJlc2VhcmNoIEdlb2dyYXBoZXIpICsgQ2FtaWxsZSBTdGFnZyAoUmVzZWFyY2ggRWNvbG9naXN0LCBOYXRpb25hbA0KICBXZXRsYW5kIFNjaWVuY2UgQ2VudGVyKQ0KYmlibGlvZ3JhcGh5OiByZWZlcmVuY2VzLmJpYg0KY3NsOiBzY2llbmNlLmNzbA0Kb3V0cHV0Og0KICBtZF9kb2N1bWVudDogZ2l0aHViX2RvY3VtZW50DQogIHBkZl9kb2N1bWVudDogZGVmYXVsdA0KICBodG1sX2RvY3VtZW50Og0KICAgIGRmX3ByaW50OiBwYWdlZA0KICB3b3JkX2RvY3VtZW50OiBkZWZhdWx0DQogIGh0bWxfbm90ZWJvb2s6IGRlZmF1bHQNCmFsd2F5c19hbGxvd19odG1sOiB5ZXMNCi0tLQ0KKipQcmluY2lwYWwgSW52ZXN0aWdhdG9yczoqKiBCZW5qYW1pbiBNLiBTbGVldGVyIChSZXNlYXJjaCBHZW9ncmFwaGVyLCBXZXN0ZXJuIEdlb2dyYXBoaWMgU2NpZW5jZSBDZW50ZXIpOyBUb2RkIEouIEhhd2Jha2VyIChSZXNlYXJjaCBHZW9ncmFwaGVyKTsgQ2FtaWxsZSBTdGFnZyAoUmVzZWFyY2ggRWNvbG9naXN0LCBOYXRpb25hbCBXZXRsYW5kIFNjaWVuY2UgQ2VudGVyKQ0KDQojIyMgUmVzZWFyY2ggUHJvcG9zYWwgT3ZlcnZpZXcNCldlIHByb3Bvc2UgYSAzLXllYXIgcmVzZWFyY2ggcHJvamVjdCBhaW1lZCBhdCBkZXZlbG9waW5nIGEgc3RhdGUtb2YtdGhlLWFydCBjYXBhYmlsaXR5IHRvIGFzc2VzcyBjYXJib24gc3RvcmFnZSBhbmQgZmx1eCBpbiBlY29zeXN0ZW1zIG9mIHRoZSBVbml0ZWQgU3RhdGVzLiBUaGlzIHByb2plY3Qgd2lsbCBidWlsZCBvbiB0aGUgZXhwZXJpZW5jZSBhbmQgbGVzb25zLWxlYXJuZWQgZnJvbSB0aGUgZmlyc3QgVVNHUyBCaW9sb2dpY2FsIENhcmJvbiBTZXF1ZXN0cmF0aW9uIEFzc2Vzc21lbnQgYW5kIHN0cml2ZSB0byBtYWtlIGEgbnVtYmVyIG9mIHNjaWVudGlmaWMgYW5kIG1ldGhvZG9sb2dpY2FsIGltcHJvdmVtZW50cy4gQXQgaXRzIGNvcmUsIHRoaXMgbmV3IGFzc2Vzc21lbnQgYWN0aXZpdHkgd2lsbCBsZXZlcmdlIGEgbnVtYmVyIG9mIG5ldyBhbmQgaW5ub3ZhdGl2ZSByZXNlYXJjaCBjYXBhYmlsaXRpZXMgZGV2ZWxvcGVkIHNpbmNlIGNvbXBsZXRpb24gb2YgdGhlIGZpcnN0IGFzc2Vzc21lbnQsIGluY2x1ZGluZyBpbnRlZ3JhdGlvbiB3aXRoaW4gdGhlIFVTR1MncyBMYW5kIFVzZSBhbmQgQ2FyYm9uIFNjZW5hcmlvIFNpbXVsYXRvciAoTFVDQVMpIG1vZGVsaW5nIGZyYW1ld29yay4NCg0KIyMjIFJlc2VhcmNoIEFwcHJvYWNoDQpUaGUgMy15ZWFyIHByb2plY3Qgd2lsbCBjb25zaXN0IG9mIHRocmVlIHByaWFtcnkgc3RhZ2VzIGFuZCB3aWxsIGJlZ2luIGluIGVhcm5lc3QgaW4gdGhlIFdpbnRlci9TcHJpbmcgb2YgMjAxOS4gQ3VsbWluYXRpb24gb2YgdGhpcyBwcm9qZWN0IHdpbGwgYmUgYWNoaWV2ZWQgd2l0aCBwdWJsaWNhdGlvbiBhbmQgdGhlIHJlbGVhc2Ugb2YgYW4gdXBkYXRlZCBhc3Nlc3NtZW50IGluIFNlcHRlbWJlciAyMDIxLiAgDQoNCjEuICoqUGxhbm5pbmcgYW5kIG1ldGhvZG9sb2dpY2FsIGRldmVsb3BtZW50OioqIFNpbWlsYXIgdG8gdGhlIG9yaWdpbmFsIGFzc2Vzc21lbnQsIHdlIHdpbGwgZGV2ZWxvcCBhbmQgb3V0bGluZSBhIG1ldGhvZG9sb2dpY2FsIGFwcHJvYWNoIGFpbWVkIGF0IGRldmVsb3BpbmcgYSBzdXN0YWluZWQgTGFuZENhcmJvbiBhc3Nlc3NtZW50IGNhcGFiaWxpdHkuIFRoaXMgd2lsbCBiZSBhY2hpZXZlZCBieSBnYXRoZXJpbmcgcmVsYXRpdmUgZXhwZXJ0cyBpbiB0aGUgZmllbGRzIG9mIGxhbmQgY2hhbmdlLCBlY29zeXN0ZW0gY2FyYm9uIHByb2Nlc3NlcywgY2xpbWF0ZSBjaGFuZ2UsIGFuZCBuYXR1cmFsIGRpc3R1cmJhbmNlcyBmb3IgYSBzZXJpZXMgb2YgZm9jdXNlZCB3b3Jrc2hvcHMgYWltZWQgYXQgDQogICAgYSkgaWRlbnRpZnlpbmcgdGhlIG1ham9yIGNvbnRyb2xsaW5nIHByb2Nlc3NlcyB0byBiZSBjb25zaWRlcmVkLCANCiAgICBiKSBwcmlvcml0aXppbmcgZ2FwcyBpbiBjdXJyZW50IGtub3dsZWRnZSBmb3IgaW5jbHVzaW9uIGludG8gdGhlIGFzc2Vzc21lbnQsIA0KICAgIGMpIGRlZmluaW5nIHRoZSBib3VuZGFyaWVzIG9mIHRoZSBhc3Nlc3NtZW50LCANCiAgICBkKSBsYXlpbmcgb3V0IGEgc3RydWN0dXJlZCBhcHByb2FjaCB0byBwcm9kdWNlIHJlcGVhdGFibGUgYW5kIHJlcHJvZGliaWJsZSByZXN1bHRzLCBhbmQgDQogICAgZSkgZGV2ZWxvcGluZyBhIHRpZXJlZCBzeXN0ZW0gZm9yIHVwZGF0aW5nIGZ1dHVyZSBhc3Nlc3NtZW50cyB3aGVyZSBjdXJyZW50IGtub3dsZWRnZSBnYXBzIGFyZSBwcmlvcml0aXplZCBmb3IgaW5jbHVzaW9uIGluIHN1YnNlcXVlbnQgdmVyc2lvbnMuICANCg0KMi4gKipEYXRhIGNvbGxlY3Rpb24sIG1vZGVsIGRldmVsb3BtZW50IGFuZCBpbXBsZW1lbnRhdGlvbjoqKiBUaGlzIHBoYXNlIG9mIHRoZSByZXNlYXJjaCB3aWxsIGJlZ2luIGluIGVybmVzdCBpbiB0aGUgU3VtbWVyIG9mIDIwMTkgYW5kIGV4dGVuZCB0aHJvdWdob3V0IHRoZSBkdXJhdGlvbiBvZiB0aGUgcHJvamVjdC4gR2l2ZW4gdGhlIHNjYWxlIGFuZCBzY29wZSBvZiB0aGUgcHJvcG9zZWQgcHJvamVjdCwgd2UgcHJvcG9zZSB0byBtaW5pbWl6ZSBuZXcgZGF0YSBnZW5lcmF0aW9uIHdoZXJlIHBvc3NpYmxlIGJ5IGxldmVyZ2luZyBjdXJyZW50IHB1YmxpY2FsbHkgYXZhaWxhYmxlIHJlc291cmNlcyB3aGVuZXZlciBwb3NzaWJsZS4gRm9yIGV4YW1wbGUsIGV4aXN0aW5nIGRvd25zY2FsZWQgY2xpbWF0ZSBkYXRhIHdpbGwgYmUgdXRpbGl6ZWQsIGFzIG9wcG9zZWQgdG8gZ2VuZXJhdGluZyBuZXcgZGF0YXNldHMuIFNpbWlsYXJpbHksIHNjZW5hcmlvIHByb2plY3Rpb25zIHdpbGwgYmUgYmFzZWQgb24gdGhlIGxhdGVzdCBwdWJsaWNhbGx5IGF2YWlsYWJsZSBkYXRhYmFzZXMgY29uc2lzdGVudCB3aXRoIElQQ0MgcmVzZWFyY2ggYWN0aXZpdGVzLiBXaGVyZSBubyBjdXJyZW50IGRhdGEgZXhpc3RzIChlLmcuIGNsaW1hdGUtZHJpdmVuIHByb2plY3Rpb25zIG9mIGRpc3R1cmJhbmNlcykgd2Ugd2lsbCBsZXZlcmFnZSBhcHByb2FjaGVzIGRlc2NyaWJlZCBpbiBsaXRlcmF0dXJlLiBEYXRhIGNvbGxlY3Rpb24gYWN0aXZpdGllcyBnZW5lcmFsbHkgaW5jbHVkZSB0aGUgZm9sbG93aW5nIGNhdGVnb3JpZXM6DQogICAgYSkgRnV0dXJlIHNjZW5hcmlvIGZyYW1ld29yayAoUkNQcywgU1NQLCBnbG9iYWwgbWl0aWdhdGlvbiBzY2VuYXJpb3MpLA0KICAgIGIpIEhpc3RvcmljYWwgYW5kIGZ1dHVyZSBwcm9qZWN0ZWQgY2hhbmdlcyBpbiB3ZWF0aGVyIGFuZCBjbGltYXRlIChQUklTTSwgTE9DQSksDQogICAgYykgSGlzdG9yaWNhbCBhbmQgcHJvamVjdGVkIHJhdGVzIG9mIGxhbmQgdXNlLCBsYW5kLXVzZSBjaGFuZ2UsIGxhbmQgbWFuYWdlbWVudCAoTEMgVHJlbmRzLCBOTENELCBMQ01BUCksDQogICAgZCkgTmF0dXJhbCBkaXN0dXJiYW5jZSByZWdpbWVzIGFuZCB0aGVpciBwcm9qZWN0ZWQgY2hhbmdlcyBkdWUgdG8gY2xpbWF0ZSBhbmQgbGFuZCB1c2UgKE1UQlMsIExhbmRmaXJlLCBCdXJuIEFyZWEgRUNWKSwNCiAgICBlKSBJbml0aWFsIGNvbmRpdGlvbnMsIGluY2x1ZGluZyBjdXJyZW50IGxhbmQtdXNlL2xhbmQtY292ZXIgYW5kIHZlZ2V0YXRpb24gY29tcG9zaXRpb24gKExhbmRmaXJlLCBOTENELCBMQ01BUCkuDQoNCjMuICoqRGV2ZWxvcG1lbnQgb2Ygc3RhbmRhcmRpemVkIHJlcG9ydGluZyBhbmQgcHVibGljYXRpb246KiogS2V5IHRvIHN1Y2Nlc3Mgb2YgdGhpcyBwcm9qZWN0IHdpbGwgYmUgdGhlIGRldmVsb3BtZW50IG9mIGEgZnJhbWV3b3JrIGZvciBwdWJsaWNhdGlvbiBvZiByZXN1bHRzLiBVbmxpa2UgcHJldmlvdXMgZWZmb3J0cywgd2Ugd2lsbCBkZXZlbG9wIGEgc3RhbmRhcmRpemVkIHJlcG9ydGluZyBzeXN0ZW0gd2hpY2ggaXMgaW50ZWdyYXRlZCB3aXRoaW4gdGhlIGFjdHVhbCBtb2RlbGluZyBlbnZpcm9ubWVudC4gVGhlIGdvYWwgb2YgdGhpcyBhY3Rpdml0eSBpcyB0d28tZm9sZC4gRmlyc3QsIHRoZSBpbnRlZ3JhdGlvbiBvZiBhIHN0YW5kYXJkaXplZCBzZXQgb2YgcmVwb3J0cyB3aWxsIHJlZHVjZSB0aGUgInRpbWUtdG8tZGVsaXZlcnkiIG9uY2UgYWxsIG1vZGVsIHJ1bnMgYW5kIGFuYWx5c2lzIGhhcyBiZWVuIGZpbmlzaGVkLiBTZWNvbmQsIHRoaXMgZWZmb3J0IHdpbGwgcHJvdmlkZSBhbiBvcGVuIGFuZCB0cmFuc3BhcmVudCByZXBvcnRpbmcgZnJhbWV3b3JrIHdoaWNoIHdpbGwgZmFjaWxpdGF0ZSB0aGUgcGVlciByZXZpZXcgcHJvY2Vzcy4gQXMgc3VjaCwgYWN0aXZpdGVzIHJlbGF0ZWQgdG8gcmVwb3J0aW5nIGFuZCBwdWJsaWNhdGlvbiwgaW5jbHVkaW5nIGRldmVsb3BtZW50IG9mIG9ubGluZSBkYXRhIGFjY2VzcyB3aWxsIGJlIHJ1biBpbiBwYXJhbGxlbCB3aXRoIG90aGVyIHNjaWVudGlmaWMgYWN0aXZpZXMgZGVzY3JpYmVkIGluIHRoZSBwcmV2aW91cyBzZWN0aW9uLiBUbyBhY2hpZXZlIHRoaXMgZ29hbCB0aGUgcHJvamVjdCB0ZWFtIHdpbGwgd29yayB3aXRoIFVTR1MgZXhwZXJ0cyBpbiBwdWJsaWNhdGlvbnMgYW5kIG9ubGluZSB2aXN1YWxpemF0aW9uIHRvIGVuc3VyZSBhc3Nlc3NtZW50IHByb2R1Y3RzIGNhbiBiZSBwcm92aWRlZCBpbiBhIHRpbWVseSBtYW5vci4gICANCg0KDQojIyMgTW9kZWxpbmcgQXBwcm9hY2gNCldlIHByb3Bvc2UgdG8gdXNlIHRoZSBVU0dTIExVQ0FTIG1vZGVsaW5nIGZyYW1ld29yayB0byBjb25kdWN0IHRoZSBhc3Nlc3NtZW50IFtAc2xlZXRlcjIwMThlZmZlY3RzXS4NCg0KIyMjIEhpZ2ggUGVyZm9ybWFuY2UgQ29tcHV0aW5nIChKYXNvbiBLcmVpdGxlcikNCg0KDQojIFByb2plY3QgT3ZlcnZpZXcNCg0KKipTdHJ1Y3R1cmUgb2YgYXNzZXNzbWVudCoqICANCg0KKiBQdXJwb3NlLCBqdXN0aWZpY2F0aW9uLCBhbmQgY29udGV4dCBmb3IgdGhlIGFzc2Vzc21lbnQgKFpodSBhbmQgUmVlZCkgDQogICsgUHVycG9zZS9nb2Fscw0KICArIEp1c3RpZmljYXRpb24NCiAgICArIEVJU0EgMjAwNyByZXF1aXJlbWVudHMvaW50ZXJwcmV0YXRpb24NCiAgKyBTY29wZQ0KICAgICsgV2hhdCBpcyBpbmNsdWRlZCBhbmQgd2hhdCBpc27igJl0Pw0KICAgICsgQ2FyYm9uIHBvb2xzIGFuZCBmbHV4ZXMgY29uc2lkZXJlZA0KICAgICAgKyBMaXZlLCBET00sIFNvaWwsIEhXUD8NCiAgICArIFRoZW1hdGljIHJlc29sdXRpb24NCiAgICAgICsgRm9yZXN0IGNsYXNzaWZpY2F0aW9uIChDYW4gd2UgbGluayB0byBMQU5ERklSRSBFVlQgb3Igc29tZSBjb2Fyc2VyIGNsYXNzaWZpY2F0aW9uPykNCiAgICArIFNwYXRpYWwgZXh0ZW50IOKAkyBuYXRpb25hbD8gIENPTlVTIHZzIGluY2x1ZGluZyBBSyBhbmQgSEkuDQogICAgKyBTcGF0aWFsIGFuZCB0ZW1wb3JhbCByZXNvbHV0aW9uDQogICAgKyBSZXBvcnRpbmcgdW5pdHMNCg0KKiBDb250ZXh0IOKAkyBIb3cgZG9lcyB0aGUgTGFuZENhcmJvbiBhc3Nlc3NtZW50IHJlbGF0ZSB0byBvdGhlciB3b3JrPw0KICArIElQQ0MNCiAgKyBFUEEgR0hHIGludmVudG9yeQ0KICArIEZTIEZJQSBpbnZlbnRvcnkNCiAgKyBTdGF0ZSBvZiB0aGUgQ2FyYm9uIEN5Y2xlIFJlcG9ydA0KICArIE5hdGlvbmFsIENsaW1hdGUgQ2hhbmdlIEFzc2Vzc21lbnQNCiAgKyBMYW5kQ2FyYm9uIHYxDQoNCiogTW9kZWxpbmcgQXBwcm9hY2gNCiAgKyBMVUNBUyBtb2RlbCBhcyBhIG1vZGVsaW5nIGZyYW1ld29yay4NCiAgICArIEV4dGVybmFsIG1vZGVscyBlaXRoZXIgbGlua2VkIG9yIGNvdXBsZWQuIA0KICAgICsgTWluaW1pemUgYW1vdW50IG9mIHdvcmsgdGhhdCBjYW4gbm90IGJlIGNvbm5lY3RlZCAoaW4gY29kZSkuDQogICAgKyBTdGF0aXN0aWNhbCANCg0KDQoqKk1haW4gZmluZGluZ3MgKEV2ZXJ5b25lKSoqDQoNCiogQmFzZWxpbmUgY2FyYm9uIHN0b2NrcyBhbmQgZmx1eGVzDQogICsgTmF0aW9uYWxseSwgYW5kIGJ5IGVjb3JlZ2lvbiBhbmQgc3RhdGUNCiAgKyBQdWJsaWMgdnMuIHByaXZhdGUgbGFuZHMNCiAgKyBIb3cgaGF2ZSB0aGV5IGNoYW5nZWQgb3ZlciB0aW1lPw0KICArIEF0dHJpYnV0aW9uIC0gSW4gcmVzcG9uc2UgdG8gd2hhdCBkcml2ZXJzPw0KICArIFVuY2VydGFpbnRpZXMNCiAgKyBIb3cgZG8gdGhleSBjb21wYXJlIHRvIGZvc3NpbCBmdWVsIGVtaXNzaW9ucz8NCiogUHJvamVjdGVkIGNoYW5nZSB1bmRlciBidXNpbmVzcyBhcyB1c3VhbCBzY2VuYXJpbyB3aXRoIGNsaW1hdGUgY2hhbmdlIHByb2plY3Rpb25zDQogICsgV2hlcmUgYXJlIGNhcmJvbiBzdG9ja3MgbW9zdCB2dWxuZXJhYmxlPw0KICArIE1pdGlnYXRpb24gc2NlbmFyaW9zIHRvIGVuaGFuY2UgYmlvbG9naWNhbCBjYXJib24gc2VxdWVzdHJhdGlvbg0KICArIFdoZXJlIGNhbiB3ZSBwcm90ZWN0IGV4aXN0aW5nIHN0b2NrcyBhbmQgZW5oYW5jZSBmdXR1cmUgc3RvY2tzPw0KDQoNCiogSW50ZWdyYXRlZCBtb2RlbGluZyBhcHByb2FjaCAoU2xlZXRlcikNCiAgKyBmb2N1cyBvbiBpbnRlZ3JhdGlvbiBvZiBjYXJib24gZHluYW1pY3Mgd2l0aCBsYW5kL3dhdGVyIHN1cmZhY2UgZHluYW1pY3M/DQogICsgaW5wdXQgYW5kIG91dHB1dCB1bmNlcnRhaW50aWVzDQogICsgYXR0cmlidXRpb24NCiogRWNvc3lzdGVtIGNhcmJvbiBkeW5hbWljcyANCiAgKyBUZXJyZXN0cmlhbCAoU2VsbWFudHMgYW5kIExpdSkNCiAgKyBDYW4gd2Ugc2ltdWxhdGUgc3RvY2sgY2hhbmdlcyB1c2luZyBGSUEgYW5kIEZWUyBieSBFVlQgZm9yIGRpc3R1cmJhbmNlcy9oYXJ2ZXN0L2Vjb3JlZ2lvbj8gIENhbiB3ZSBnZXQgTEFOREZJUkUgdG8gZG8gdGhpcyBmb3IgdXM/DQogICsgV2V0bGFuZCAoU3RhZ2cgYW5kIFIuIFNsZWV0ZXIpDQogICsgQXF1YXRpYw0KICArIEFncmljdWx0dXJlDQogICsgVXJiYW4vZGV2ZWxvcGVkIChEaWZmZW5kb3JmZXI/KQ0KICArIFdoZXJlIHRvIGFkZHJlc3MgbGF0ZXJhbCBmbHV4ZXM/DQoqIExhbmQvd2F0ZXIgc3VyZmFjZSBkeW5hbWljcw0KICArIEJhc2VsaW5lIGxhbmQtdXNlIHBhdHRlcm5zIGFuZCBmdXR1cmUgbGFuZC11c2Ugc2NlbmFyaW9zIChTbGVldGVyKQ0KICArIEJhc2VsaW5lIGRpc3R1cmJhbmNlIGFuZCBmdXR1cmUgcG90ZW50aWFsIGRpc3R1cmJhbmNlcyAoSGF3YmFrZXIgYW5kIEhlbm5lKSwgV2lsZGZpcmUgZmlyZSwgUHJlc2NyaWJlZCBmaXJlICh3aXRoIFRhbGwgVGltYmVycykNCiogVmVnZXRhdGlvbiBmZWVkYmFja3Mgd2l0aCBjbGltYXRlIGFuZCBkaXN0dXJiYW5jZSAoSGVubmUgYW5kIFZhbmRlcmhvb2YpDQogICsgU3VjY2Vzc2lvbg0KICArIFR5cGUgY29udmVyc2lvbg0KKiBDbGltYXRlIGNoYW5nZSBzY2VuYXJpb3MgYW5kIGltcGFjdHMNCiAgKyBVc2UgQWJhdHpnbG914oCZcyBkYXRhIGZvciBDT05VUyAtIGh0dHA6Ly93d3cuY2xpbWF0b2xvZ3lsYWIub3JnL3Byb2R1Y3RzLmh0bWwNCiAgKyBNaXRpZ2F0aW9uIGFjdGlvbnMsIGltcGFjdHMsIGFuZCBzY2VuYXJpb3MNCiAgKyBDYXNlIHN0dWRpZXMgdnMgbGFyZ2Ugc2NhbGU/DQogICsgRnVlbCB0cmVhdG1lbnRzIChLcmlldGxlciBhbmQgSGF3YmFrZXIpDQogICsgTGFuZCB1c2U/DQogICsgRm9yZXN0cnkg4oCTIHByaW1hcmlseSBoYXJ2ZXN0aW5nIHBhdHRlcm5zIGFuZCBtZXRob2RzDQogICsgUmFuZ2VsYW5kcw0KICArIFdldGxhbmRzIChSLiBTbGVldGVyPykNCiAgKyBBZ3JpY3VsdHVyZT8NCiAgKyBET0kgbGFuZHMNCiAgKyBFY29ub21pY3Mgb2YgbWl0aWdhdGlvbiBhY3Rpb25zIChCYWdzdGFkIGFuZCBLcmVpdGxlciBhbmQgUGluZGlsbGkpPw0KKiBEYXRhIGRlbGl2ZXJ5IGFuZCB2aXN1YWxpemF0aW9uIChTaGVyYmEpDQogICsgSW5wdXQgYW5kIG91dHB1dCBkYXRhDQogICsgTW9kZWxzL3NvdXJjZSBjb2RlIChpZiBwdWJsaWMpIG9yIGV4ZWN1dGFibGVzDQogICsgVmlzdWFsaXphdGlvbiB0b29scw0KKiBQbGFubmVkIHRvcGljcyBmb3IgZnV0dXJlIGFzc2Vzc21lbnRzDQogICsgRGlzdHVyYmFuY2VzDQogICsgSW5zZWN0cyB2MyAod2l0aCBGUyBGSEFBU1QpDQogICsgRHJvdWdodCB2MyBvciB2NCAoSGVubmUgYW5kIENyYWlnIEFsbGVu4oCZcyB0ZWFtKQ0KDQoqIENyaXRpY2FsIGluZnJhc3RydWN0dXJlOg0KICArIENvbXB1dGluZyBwb3dlciBhbmQgc2hhcmVkIHN0b3JhZ2U/ICANCiAgKyBXaWxsIFlFVEkyIGJlIG9ubGluZSBhdCBFUk9TPw0KICArIENsb3VkIHNlcnZpY2VzPw0KCSAgKyBXb3JraW5nIGFyY2hpdmUgZm9yIGRhdGEsIGNvZGUsIGFuZCBtb2RlbHM/DQoNCiogQ3JpdGljYWwgZGF0YToNCgkrIE1UQlMgYW5kIEJBRUNWPw0KCSAgKyBTdXJmYWNlIHdhdGVyIGV4dGVudCBFQ1Y/DQoJKyBMQU5ERklSRSB2ZWcsIGZ1ZWxzLCBhbmQgZGlzdHVyYmFuY2VzIChlc3BlY2lhbGx5IGZ1ZWwgdHJlYXRtZW50cyk/DQoJKyBOTENEL0xDTUFQPw0KCSsgQmV0dGVyIHdldGxhbmQgbWFwcz8NCiAgKyBDbGltYXRlIGRhdGEgLSBiYXNlbGluZSBhbmQgcHJvamVjdGVkDQoNCiogUGFydG5lcnM6DQoJKyBFUEE/DQoJKyBMQU5ERklSRSBmdWVscyB0ZWFtIGlmIGdvaW5nIHRoZSBGSUEtRlZTIHJvdXRlDQogICsgRklBIChGb3Jlc3QgSGVhbHRoIEFzc2Vzc21lbnQgYW5kIEFwcGxpZWQgU2NpZW5jZSBUZWFtIChGSEFBU1QpIGZvciBJbnNlY3QgZGlzdHVyYmFuY2VzKQ0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCiMgUHJvamVjdCBTdGFmZg0KKyBIZWFkcXVhcnRlcnMNCiAgKyBaaGlsaWFuZyBaaHUsIFByb2plY3QgQ2hpZWYgQmlvbG9naWNhbCBDYXJib24gU2VxdWVzdHJhdGlvbiBQcm9qZWN0OyB6emh1QHVzZ3MuZ292DQogICsgQnJhZGxleSBSZWVkLCBQcm9ncmFtIENvb3JkaW5hdG9yIExhbmQgQ2hhbmdlIFNjaWVuY2UsIHJlZWRAdXNncy5nb3YNCisgV2VzdGVybiBHZW9ncmFwaGljIFNjaWVuY2UgQ2VudGVyIChXR1NDKQ0KICArIEJlbmphbWluIE0uIFNsZWV0ZXIsIFJlc2VhcmNoIEdlb2dyYXBoZXI7IGJzbGVldGVyQHVzZ3MuZ292DQogICsgSmlueHVuIExpdSwgUmVzZWFyY2ggUGh5c2ljYWwgU2NpZW50aXN0OyBqeGxpdUB1c2dzLmdvdg0KICArIEphc29uIEtyZWl0bGVyOyBSZXNlYXJjaCBHZW9ncmFwaGVyOyBqa3JlaXRsZXJAdXNncy5nb3YNCiAgKyBQYXVsIFNlbG1hbnRzOyBSZXNlYXJjaCBQaHlzaWNhbCBTY2llbnRpc3Q7IHBzZWxtYW50c0B1c2dzLmdvdg0KICArIEphc29uIFNoZXJiYTsgR2VvZ3JhcGhlcjsganNoZXJiYUB1c2dzLmdvdg0KKyBHZW9zY2llbmNlcyBhbmQgRW52aXJvbm1lbnRhbCBDaGFuZ2UgU2NpZW5jZSBDZW50ZXIgKEdFQ1NDKQ0KICArIFRvZGQgSi4gSGF3YmFrZXINCiAgKyBQYXVsIEhlbm5lDQorIFdldGxhbmQgYW5kIEFxdWF0aWMgUmVzZWFyY2ggQ2VudGVyIChXQVJDKQ0KICArIENhbWlsbGUgU3RhZ2csDQogICsgQnJhZHkgQ291bHZpbGxpb24NCisgSHlkcm9sb2dpYyBSZW1vdGUgU2Vuc2luZyBCcmFuY2ggKEhSU0IpDQogICsgUmFjaGVsIFNsZWV0ZXINCg0KDQojIEdvYWxzICYgT2JqZWN0aXZlcw0KDQpUaGUgZ29hbCBvZiB0aGlzIHJlc2VhcmNoIGFjdGl2aXR5IGlzIHRvIGEpIGRldmVsb3AgYSBzdGFuZGFyZGl6ZWQgbWV0aG9kb2xvZ2ljYWwgYXBwcm9hY2ggdG8gYXNzZXNzIGNoYW5nZXMgaW4gY2FyYm9uIHN0b3JhZ2UgYW5kIGZsdXggaW4gZWNvc3lzdGVtcyBvZiB0aGUgVW5pdGVkIFN0YXRlcywgYW5kIGIpIGltcGxlbWVudCB0aGUgbWV0aG9kb2xvZ3kgYW5kIHByb2R1Y2UgYW5kIGFubnVhbCBzZXJpZXMgb2YgcmVwb3J0cyBkZXNjcmliaW5nIGNoYW5nZXMgaW4gZWNvc3lzdGVtIGNhcmJvbiBiYWxhbmNlIGFuZCB0aGUgcmVsYXRpdmUgZWZmZWN0cyBvZiBtYWpvciBjb250cm9sbGluZyBwcm9jZXNzZXMuDQoNCisgR29hbCAxOiBEZXZlbG9wIGEgcmVwZWF0YWJsZSBhbmQgdHJhbnNwYXJhbnQgbWV0aG9kb2xvZ3kgdG8gYXNzZXNzIGVjb3N5c3RlbSBjYXJib24gc3RvY2tzIGFuZCBmbHV4ZXMgZm9yIGVjb3N5c3RlbXMgb2YgdGhlIFVuaXRlZCBTdGF0ZXMuDQogICsgT2JqZWN0aXZlICMxOg0KICArIE9iamVjdGl2ZSAjMjoNCisgR29hbCAyOiBEZXNjcmliZSByZWNlbnQgaGlzdG9yaWNhbCBjaGFuZ2VzIGluIGVjb3N5c3RlbSBjYXJib24gYmFsYW5jZSBhbmQgdGhlIG1ham9yIGNvbnRyb2xsaW5nIHByb2Nlc3Nlcy4NCiAgKyBPYmplY3RpdmUgIzE6DQogICsgT2JqZWN0aXZlICMyOg0KKyBHb2FsIDM6IERldmVsb3AgYWx0ZXJuYXRpdmUgZnV0dXJlIHByb2plY3Rpb25zIGJhc2VkIG9uIGFsdGVybmF0aXZlIHNjZW5hcmlvcy4NCiAgKyBPYmplY3RpdmUgIzE6DQogICsgT2JqZWN0aXZlICMyOg0KDQojIFNjb3BlDQoNCg0KIyMjIFRlbXBvcmFsIERvbWFpbg0KVGhlbSB0ZW1wb3JhbCBkb21haW4gY292ZXJzIHRoZSByZWNlbnQgaGlzdG9yaWNhbCBwYXN0IChMYW5kc2F0IGVwb2NoKSBhcyB3ZWxsIGFzIHByb2plY3Rpb25zIGludG8gdGhlIGZ1dHVyZS4NCg0KIyMjIFNwYXRpYWwgRG9tYWluDQpUaGUgc2NvcGUgb2YgdGhpcyByZXNlYXJjaCBhY3Rpdml0eSBzcGFucyB0ZXJyZXN0cmlhbCBhbmQgYXF1YXRpYyBlY29zeXN0ZW1zIG9mIHRoZSBVbml0ZWQgU3RhdGVzLg0KDQojIFBoYXNlIDENCg0KIyBEZWxpdmVyYWJsZXMNCg0KIyBCdWRnZXQNCg0KIyBSZWZlcmVuY2VzDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlVTR1MgQmlvbG9naWNhbCBDYXJib24gU2VxdWVzdHJhdGlvbiBQcm9ncmFtOiBQcm9qZWN0IFdvcmtwbGFuIg0KYmlibGlvZ3JhcGh5OiByZWZlcmVuY2VzLmJpYg0KY3NsOiBzY2llbmNlLmNzbA0Kb3V0cHV0Og0KICBodG1sX25vdGVib29rOiBkZWZhdWx0DQogIHBkZl9kb2N1bWVudDogZGVmYXVsdA0KICBodG1sX2RvY3VtZW50Og0KICAgIGRmX3ByaW50OiBwYWdlZA0KICB3b3JkX2RvY3VtZW50OiBkZWZhdWx0DQogIG1kX2RvY3VtZW50OiBnaXRodWJfZG9jdW1lbnQNCmFsd2F5c19hbGxvd19odG1sOiB5ZXMNCi0tLQ0KIyMjIyMgKipTdHVkeSBUaXRsZToqKiBTdXN0YWluZWQgQXNzZXNzbWVudCBvZiBFY29zeXN0ZW0gQ2FyYm9uIFN0b2NrcyBhbmQgRmx1eGVzIGZvciB0aGUgVW5pdGVkIFN0YXRlcw0KDQojIyMjIyAqKlN0dWR5IFN0YXJ0IERhdGU6KiogT2N0b2JlciwgMjAxOA0KDQojIyMjIyAqKlN0dWR5IEVuZCBEYXRlOioqIFNlcHRlbWJlciwgMjAyMQ0KDQojIyMjIyAqKkNvLVByb2plY3QgQ2hpZWZzOioqDQorIEJlbmphbWluIE0uIFNsZWV0ZXI7IFN1cGVydmlzb3J5IFJlc2VhcmNoIEdlb2dyYXBoZXIsIFdlc3Rlcm4gR2VvZ3JhcGhpYyBTY2llbmNlIENlbnRlcjsgYnNsZWV0ZXJAdXNncy5nb3YNCisgVG9kZCBKLiBIYXdiYWtlcjsgU3VwZXJ2aXNvcnkgUmVzZWFyY2ggRWNvbG9naXN0LCBHZW9zY2llbmNlcyBhbmQgRW52aXJvbm1lbnRhbCBDaGFuZ2UgU2NpZW5jZSBDZW50ZXI7IHRqaGF3YmFrZXJAdXNncy5nb3YNCg0KIyMjIyMgKipTdHVkeSBQZXJzb25hbCoqDQorIEhlYWRxdWFydGVycw0KICArIFpoaWxpYW5nIFpodSwgUHJvamVjdCBDaGllZiBCaW9sb2dpY2FsIENhcmJvbiBTZXF1ZXN0cmF0aW9uIFByb2plY3Q7IHp6aHVAdXNncy5nb3YNCiAgKyBCcmFkbGV5IFJlZWQsIFByb2dyYW0gQ29vcmRpbmF0b3IgTGFuZCBDaGFuZ2UgU2NpZW5jZSwgcmVlZEB1c2dzLmdvdg0KKyBXZXN0ZXJuIEdlb2dyYXBoaWMgU2NpZW5jZSBDZW50ZXIgKFdHU0MpDQogICsgQmVuamFtaW4gTS4gU2xlZXRlciwgUmVzZWFyY2ggR2VvZ3JhcGhlcjsgYnNsZWV0ZXJAdXNncy5nb3YNCiAgKyBKaW54dW4gTGl1LCBSZXNlYXJjaCBQaHlzaWNhbCBTY2llbnRpc3Q7IGp4bGl1QHVzZ3MuZ292DQogICsgSmFzb24gS3JlaXRsZXI7IFJlc2VhcmNoIEdlb2dyYXBoZXI7IGprcmVpdGxlckB1c2dzLmdvdg0KICArIFBhdWwgU2VsbWFudHM7IFJlc2VhcmNoIFBoeXNpY2FsIFNjaWVudGlzdDsgcHNlbG1hbnRzQHVzZ3MuZ292DQogICsgSmFzb24gU2hlcmJhOyBHZW9ncmFwaGVyOyBqc2hlcmJhQHVzZ3MuZ292DQorIEdlb3NjaWVuY2VzIGFuZCBFbnZpcm9ubWVudGFsIENoYW5nZSBTY2llbmNlIENlbnRlciAoR0VDU0MpDQogICsgVG9kZCBKLiBIYXdiYWtlcg0KICArIFBhdWwgSGVubmUNCisgV2V0bGFuZCBhbmQgQXF1YXRpYyBSZXNlYXJjaCBDZW50ZXIgKFdBUkMpDQogICsgQ2FtaWxsZSBTdGFnZywNCiAgKyBCcmFkeSBDb3VsdmlsbGlvbg0KKyBIeWRyb2xvZ2ljIFJlbW90ZSBTZW5zaW5nIEJyYW5jaCAoSFJTQikNCiAgKyBSYWNoZWwgU2xlZXRlcg0KICANCiMjIyMjICoqUHJvamVjdCBMb2NhdGlvbjoqKiBBbGwgNTAgU3RhdGVzIG9mIHRoZSBVLlMuDQoNCiMjIyMjICoqUHVibGljIEFjY2VzcyB0byBEYXRhOioqIEFsbCBkYXRhLCBtb2RlbHMsIGFuZCByZXBvcnRzIHdpbGwgYmUgcHJvZHVjZWQsIHB1Ymxpc2hlZCwgYW5kIGFyY2hpdmVkIHVzaW5nIFNjaWVuY2VCYXNlDQojIyMjIyAqKlVTR1MgTGFuZENhcmJvbiBGdW5kaW5nIEhpc3Rvcnk6KiogVGhpcyBpcyBwcm9wb3NlZCBhcyBhIG5ldyAzLXllYXIgcmVzZWFyY2ggcHJvamVjdC4NCiMjIyMjICoqVVNHUyBMYW5kQ2FyYm9uIEZ1bmRpbmcgUmVxdWVzdDoqKiAkNzAwayAoRlkyMDE5KSwgJDc1MGsgKEZZMjAyMCksICQ4MDBrIChGWTIwMjEpDQojIyMjIyAqKkFzc29jaWF0ZWQgJiBMaW5rZWQgU3R1ZGllczoqKg0KKyBMYW5kIENoYW5nZSBTY2llbmNlIFJlc2VhcmNoIGFuZCBEZXZlbG9wbWVudCBQcm9ncmFtIChQSSBCLk0uIFNsZWV0ZXIpDQoNCiMjIyMjICoqT3RoZXIgQ29tcGxpbWVudGFyeSBGdW5kaW5nIFNvdXJjZShzKToqKiBOQQ0KDQoNCiMgQS4gUHJvamVjdCBPdmVydmlldw0KV2UgcHJvcG9zZSBhIDMteWVhciByZXNlYXJjaCBwcm9qZWN0IGFpbWVkIGF0IGRldmVsb3BpbmcgYSBzdGF0ZS1vZi10aGUtYXJ0IGNhcGFiaWxpdHkgdG8gYXNzZXNzIGNhcmJvbiBzdG9yYWdlIGFuZCBmbHV4IGluIGVjb3N5c3RlbXMgb2YgdGhlIFVuaXRlZCBTdGF0ZXMuIFRoaXMgcHJvamVjdCB3aWxsIGJ1aWxkIG9uIHRoZSBleHBlcmllbmNlIGFuZCBsZXNvbnMtbGVhcm5lZCBmcm9tIHRoZSBmaXJzdCBVU0dTIEJpb2xvZ2ljYWwgQ2FyYm9uIFNlcXVlc3RyYXRpb24gQXNzZXNzbWVudCBhbmQgc3RyaXZlIHRvIG1ha2UgYSBudW1iZXIgb2Ygc2NpZW50aWZpYyBhbmQgbWV0aG9kb2xvZ2ljYWwgaW1wcm92ZW1lbnRzLiBBdCBpdHMgY29yZSwgdGhpcyBuZXcgYXNzZXNzbWVudCBhY3Rpdml0eSB3aWxsIGxldmVyZ2UgYSBudW1iZXIgb2YgbmV3IGFuZCBpbm5vdmF0aXZlIHJlc2VhcmNoIGNhcGFiaWxpdGllcyBkZXZlbG9wZWQgc2luY2UgY29tcGxldGlvbiBvZiB0aGUgZmlyc3QgYXNzZXNzbWVudCwgaW5jbHVkaW5nIGludGVncmF0aW9uIHdpdGhpbiB0aGUgVVNHUydzIExhbmQgVXNlIGFuZCBDYXJib24gU2NlbmFyaW8gU2ltdWxhdG9yIChMVUNBUykgbW9kZWxpbmcgZnJhbWV3b3JrLiBUaGUgMy15ZWFyIHByb2plY3Qgd2lsbCBjb25zaXN0IG9mIHRocmVlIHByaWFtcnkgc3RhZ2VzIGFuZCB3aWxsIGJlZ2luIGluIGVhcm5lc3QgaW4gdGhlIFdpbnRlci9TcHJpbmcgb2YgMjAxOS4gQ3VsbWluYXRpb24gb2YgdGhpcyBwcm9qZWN0IHdpbGwgYmUgYWNoaWV2ZWQgd2l0aCBwdWJsaWNhdGlvbiBhbmQgdGhlIHJlbGVhc2Ugb2YgYW4gdXBkYXRlZCBhc3Nlc3NtZW50IGluIFNlcHRlbWJlciAyMDIxLiAgDQoNCiMjIyMjICoqUGxhbm5pbmcgYW5kIHNjb3BlIG9mIGFzc2Vzc21lbnQqKg0KU2ltaWxhciB0byB0aGUgb3JpZ2luYWwgYXNzZXNzbWVudCwgd2Ugd2lsbCBkZXZlbG9wIGFuZCBvdXRsaW5lIGEgbWV0aG9kb2xvZ2ljYWwgYXBwcm9hY2ggYWltZWQgYXQgZGV2ZWxvcGluZyBhIHN1c3RhaW5lZCBMYW5kQ2FyYm9uIGFzc2Vzc21lbnQgY2FwYWJpbGl0eS4gVGhpcyB3aWxsIGJlIGFjaGlldmVkIGJ5IGdhdGhlcmluZyByZWxhdGl2ZSBleHBlcnRzIGluIHRoZSBmaWVsZHMgb2YgbGFuZCBjaGFuZ2UsIGVjb3N5c3RlbSBjYXJib24gcHJvY2Vzc2VzLCBjbGltYXRlIGNoYW5nZSwgYW5kIG5hdHVyYWwgZGlzdHVyYmFuY2VzIGZvciBhIHNlcmllcyBvZiBmb2N1c2VkIHdvcmtzaG9wcyBhaW1lZCBhdDoNCg0KKyBpZGVudGlmeWluZyB0aGUgbWFqb3IgY29udHJvbGxpbmcgcHJvY2Vzc2VzIHRvIGJlIGNvbnNpZGVyZWQsIA0KKyBwcmlvcml0aXppbmcgZ2FwcyBpbiBjdXJyZW50IGtub3dsZWRnZSBmb3IgaW5jbHVzaW9uIGludG8gdGhlIGFzc2Vzc21lbnQsIA0KKyBkZWZpbmluZyB0aGUgYm91bmRhcmllcyBvZiB0aGUgYXNzZXNzbWVudCwgDQorIGxheWluZyBvdXQgYSBzdHJ1Y3R1cmVkIGFwcHJvYWNoIHRvIHByb2R1Y2UgcmVwZWF0YWJsZSBhbmQgcmVwcm9kaWJpYmxlIHJlc3VsdHMsIGFuZCANCisgZGV2ZWxvcGluZyBhIHRpZXJlZCBzeXN0ZW0gZm9yIHVwZGF0aW5nIGZ1dHVyZSBhc3Nlc3NtZW50cyB3aGVyZSBjdXJyZW50IGtub3dsZWRnZSBnYXBzIGFyZSBwcmlvcml0aXplZCBmb3IgaW5jbHVzaW9uIGluIHN1YnNlcXVlbnQgdmVyc2lvbnMuICANCiAgICANCiMjIyMjICoqRGF0YSBjb2xsZWN0aW9uLCBtb2RlbCBkZXZlbG9wbWVudCBhbmQgaW1wbGVtZW50YXRpb24qKg0KVGhpcyBwaGFzZSBvZiB0aGUgcmVzZWFyY2ggd2lsbCBiZWdpbiBpbiBlcm5lc3QgaW4gdGhlIFN1bW1lciBvZiAyMDE5IGFuZCBleHRlbmQgdGhyb3VnaG91dCB0aGUgZHVyYXRpb24gb2YgdGhlIHByb2plY3QuIEdpdmVuIHRoZSBzY2FsZSBhbmQgc2NvcGUgb2YgdGhlIHByb3Bvc2VkIHByb2plY3QsIHdlIHByb3Bvc2UgdG8gbWluaW1pemUgbmV3IGRhdGEgZ2VuZXJhdGlvbiB3aGVyZSBwb3NzaWJsZSBieSBsZXZlcmdpbmcgY3VycmVudCBwdWJsaWNhbGx5IGF2YWlsYWJsZSByZXNvdXJjZXMgd2hlbmV2ZXIgcG9zc2libGUuIEZvciBleGFtcGxlLCBleGlzdGluZyBkb3duc2NhbGVkIGNsaW1hdGUgZGF0YSB3aWxsIGJlIHV0aWxpemVkLCBhcyBvcHBvc2VkIHRvIGdlbmVyYXRpbmcgbmV3IGRhdGFzZXRzLiBTaW1pbGFyaWx5LCBzY2VuYXJpbyBwcm9qZWN0aW9ucyB3aWxsIGJlIGJhc2VkIG9uIHRoZSBsYXRlc3QgcHVibGljYWxseSBhdmFpbGFibGUgZGF0YWJhc2VzIGNvbnNpc3RlbnQgd2l0aCBJUENDIHJlc2VhcmNoIGFjdGl2aXRlcy4gV2hlcmUgbm8gY3VycmVudCBkYXRhIGV4aXN0cyAoZS5nLiBjbGltYXRlLWRyaXZlbiBwcm9qZWN0aW9ucyBvZiBkaXN0dXJiYW5jZXMpIHdlIHdpbGwgbGV2ZXJhZ2UgYXBwcm9hY2hlcyBkZXNjcmliZWQgaW4gbGl0ZXJhdHVyZS4gRGF0YSBjb2xsZWN0aW9uIGFjdGl2aXRpZXMgZ2VuZXJhbGx5IGluY2x1ZGUgdGhlIGZvbGxvd2luZyBjYXRlZ29yaWVzOg0KDQorIEZ1dHVyZSBzY2VuYXJpbyBmcmFtZXdvcmsgKFJDUHMsIFNTUCwgZ2xvYmFsIG1pdGlnYXRpb24gc2NlbmFyaW9zKSwNCisgSGlzdG9yaWNhbCBhbmQgZnV0dXJlIHByb2plY3RlZCBjaGFuZ2VzIGluIHdlYXRoZXIgYW5kIGNsaW1hdGUgKFBSSVNNLCBMT0NBKSwNCisgSGlzdG9yaWNhbCBhbmQgcHJvamVjdGVkIHJhdGVzIG9mIGxhbmQgdXNlLCBsYW5kLXVzZSBjaGFuZ2UsIGxhbmQgbWFuYWdlbWVudCAoTEMgVHJlbmRzLCBOTENELCBMQ01BUCksDQorIE5hdHVyYWwgZGlzdHVyYmFuY2UgcmVnaW1lcyBhbmQgdGhlaXIgcHJvamVjdGVkIGNoYW5nZXMgZHVlIHRvIGNsaW1hdGUgYW5kIGxhbmQgdXNlIChNVEJTLCBMYW5kZmlyZSwgQnVybiBBcmVhIEVDViksDQorIEluaXRpYWwgY29uZGl0aW9ucywgaW5jbHVkaW5nIGN1cnJlbnQgbGFuZC11c2UvbGFuZC1jb3ZlciBhbmQgdmVnZXRhdGlvbiBjb21wb3NpdGlvbiAoTGFuZGZpcmUsIE5MQ0QsIExDTUFQKS4NCg0KIyMjIyMgKipEZXZlbG9wbWVudCBvZiBzdGFuZGFyZGl6ZWQgcmVwb3J0aW5nIGFuZCBwdWJsaWNhdGlvbioqDQpLZXkgdG8gc3VjY2VzcyBvZiB0aGlzIHByb2plY3Qgd2lsbCBiZSB0aGUgZGV2ZWxvcG1lbnQgb2YgYSBmcmFtZXdvcmsgZm9yIHB1YmxpY2F0aW9uIG9mIHJlc3VsdHMuIFVubGlrZSBwcmV2aW91cyBlZmZvcnRzLCB3ZSB3aWxsIGRldmVsb3AgYSBzdGFuZGFyZGl6ZWQgcmVwb3J0aW5nIHN5c3RlbSB3aGljaCBpcyBpbnRlZ3JhdGVkIHdpdGhpbiB0aGUgYWN0dWFsIG1vZGVsaW5nIGVudmlyb25tZW50LiBUaGUgZ29hbCBvZiB0aGlzIGFjdGl2aXR5IGlzIHR3by1mb2xkLiBGaXJzdCwgdGhlIGludGVncmF0aW9uIG9mIGEgc3RhbmRhcmRpemVkIHNldCBvZiByZXBvcnRzIHdpbGwgcmVkdWNlIHRoZSAidGltZS10by1kZWxpdmVyeSIgb25jZSBhbGwgbW9kZWwgcnVucyBhbmQgYW5hbHlzaXMgaGFzIGJlZW4gZmluaXNoZWQuIFNlY29uZCwgdGhpcyBlZmZvcnQgd2lsbCBwcm92aWRlIGFuIG9wZW4gYW5kIHRyYW5zcGFyZW50IHJlcG9ydGluZyBmcmFtZXdvcmsgd2hpY2ggd2lsbCBmYWNpbGl0YXRlIHRoZSBwZWVyIHJldmlldyBwcm9jZXNzLiBBcyBzdWNoLCBhY3Rpdml0ZXMgcmVsYXRlZCB0byByZXBvcnRpbmcgYW5kIHB1YmxpY2F0aW9uLCBpbmNsdWRpbmcgZGV2ZWxvcG1lbnQgb2Ygb25saW5lIGRhdGEgYWNjZXNzIHdpbGwgYmUgcnVuIGluIHBhcmFsbGVsIHdpdGggb3RoZXIgc2NpZW50aWZpYyBhY3RpdmllcyBkZXNjcmliZWQgaW4gdGhlIHByZXZpb3VzIHNlY3Rpb24uIFRvIGFjaGlldmUgdGhpcyBnb2FsIHRoZSBwcm9qZWN0IHRlYW0gd2lsbCB3b3JrIHdpdGggVVNHUyBleHBlcnRzIGluIHB1YmxpY2F0aW9ucyBhbmQgb25saW5lIHZpc3VhbGl6YXRpb24gdG8gZW5zdXJlIGFzc2Vzc21lbnQgcHJvZHVjdHMgY2FuIGJlIHByb3ZpZGVkIGluIGEgdGltZWx5IG1hbm9yLiANCg0KIyMjIFN0YXRlbWVudCBvZiBQcm9ibGVtDQoqIFB1cnBvc2UsIGp1c3RpZmljYXRpb24sIGFuZCBjb250ZXh0IGZvciB0aGUgYXNzZXNzbWVudCAoWmh1IGFuZCBSZWVkKSANCiAgKyBQdXJwb3NlL2dvYWxzDQogICsgSnVzdGlmaWNhdGlvbg0KICAgICsgRUlTQSAyMDA3IHJlcXVpcmVtZW50cy9pbnRlcnByZXRhdGlvbg0KKiBDb250ZXh0IOKAkyBIb3cgZG9lcyB0aGUgTGFuZENhcmJvbiBhc3Nlc3NtZW50IHJlbGF0ZSB0byBvdGhlciB3b3JrPw0KICArIElQQ0MNCiAgKyBFUEEgR0hHIGludmVudG9yeQ0KICArIEZTIEZJQSBpbnZlbnRvcnkNCiAgKyBTdGF0ZSBvZiB0aGUgQ2FyYm9uIEN5Y2xlIFJlcG9ydA0KICArIE5hdGlvbmFsIENsaW1hdGUgQ2hhbmdlIEFzc2Vzc21lbnQNCiAgKyBMYW5kQ2FyYm9uIHYxDQoNCiMjIyBPYmplY3RpdmUocykNCg0KIyMjIFNob3J0IFByb2plY3QgRGVzY3JpcHRpb24NCg0KIyMjIENvbW11bmljYXRpb24gUGxhbg0KDQojIyMgUmVsZXZhbmNlDQoNCiMjIyBTdGFrZWhvbGRlcnMNCg0KIyMjIFdoYXQgYXJlIHRoZSBjb21wZWxsaW5nIHNhZmV0eSwgaGVhbHRoLCBhbmQvb3IgZWNvbm9taWMgaW1wbGljYXRpb25zIG9mIHRoaXMgc2NpZW5jZT8NCiMjIyBXaHkgZG9lcyB0aGlzIHJlc2VhcmNoIG1hdHRlciB0byBzb2NpZXR5Pw0KDQojIEIuIFRhc2sgMSBXb3JrcGxhbg0KKipUaXRsZSBvZiBUYXNrIDE6KiogIA0KKipUYXNrIExlYWRlcnM6KiogIA0KKipQaG9uZToqKiAgDQoqKmVtYWlsOioqICANCg0KIyMjIFRhc2sgRnVuZGluZyBIaXN0b3J5DQoNCiMjIyBUYXNrIFBlcnNvbm5lbA0KDQojIyMgRXh0ZXJuYWwgQ29sbGFib3JhdG9ycyBhbmQgUGFydG5lcnMNCiogUGFydG5lcnM6DQoJKyBFUEE/DQoJKyBMQU5ERklSRSBmdWVscyB0ZWFtIGlmIGdvaW5nIHRoZSBGSUEtRlZTIHJvdXRlDQogICsgRklBIChGb3Jlc3QgSGVhbHRoIEFzc2Vzc21lbnQgYW5kIEFwcGxpZWQgU2NpZW5jZSBUZWFtIChGSEFBU1QpIGZvciBJbnNlY3QgZGlzdHVyYmFuY2VzKQ0KDQojIyMgVGFzayBPYmplY3RpdmVzDQoNCiMjIyBNYXRlcmlhbHMgJiBNZXRob2RzDQoNCiMjIyMjIFdoYXQgaXMgaW5jbHVkZWQgYW5kIHdoYXQgaXNu4oCZdD8NCisgQ2FyYm9uIHBvb2xzIGFuZCBmbHV4ZXMgY29uc2lkZXJlZA0KICArIExpdmUsIERPTSwgU29pbCwgSFdQPw0KKyBUaGVtYXRpYyByZXNvbHV0aW9uDQogICsgRm9yZXN0IGNsYXNzaWZpY2F0aW9uIChDYW4gd2UgbGluayB0byBMQU5ERklSRSBFVlQgb3Igc29tZSBjb2Fyc2VyIGNsYXNzaWZpY2F0aW9uPykNCisgU3BhdGlhbCBleHRlbnQg4oCTIG5hdGlvbmFsPyAgQ09OVVMgdnMgaW5jbHVkaW5nIEFLIGFuZCBISS4NCisgU3BhdGlhbCBhbmQgdGVtcG9yYWwgcmVzb2x1dGlvbg0KKyBSZXBvcnRpbmcgdW5pdHMNCg0KKiBJbnRlZ3JhdGVkIG1vZGVsaW5nIGFwcHJvYWNoIChTbGVldGVyKQ0KICArIGZvY3VzIG9uIGludGVncmF0aW9uIG9mIGNhcmJvbiBkeW5hbWljcyB3aXRoIGxhbmQvd2F0ZXIgc3VyZmFjZSBkeW5hbWljcz8NCiAgKyBpbnB1dCBhbmQgb3V0cHV0IHVuY2VydGFpbnRpZXMNCiAgKyBhdHRyaWJ1dGlvbg0KKiBFY29zeXN0ZW0gY2FyYm9uIGR5bmFtaWNzIA0KICArIFRlcnJlc3RyaWFsIChTZWxtYW50cyBhbmQgTGl1KQ0KICArIENhbiB3ZSBzaW11bGF0ZSBzdG9jayBjaGFuZ2VzIHVzaW5nIEZJQSBhbmQgRlZTIGJ5IEVWVCBmb3IgZGlzdHVyYmFuY2VzL2hhcnZlc3QvZWNvcmVnaW9uPyAgQ2FuIHdlIGdldCBMQU5ERklSRSB0byBkbyB0aGlzIGZvciB1cz8NCiAgKyBXZXRsYW5kIChTdGFnZyBhbmQgUi4gU2xlZXRlcikNCiAgKyBBcXVhdGljDQogICsgQWdyaWN1bHR1cmUNCiAgKyBVcmJhbi9kZXZlbG9wZWQgKERpZmZlbmRvcmZlcj8pDQogICsgV2hlcmUgdG8gYWRkcmVzcyBsYXRlcmFsIGZsdXhlcz8NCiogTGFuZC93YXRlciBzdXJmYWNlIGR5bmFtaWNzDQogICsgQmFzZWxpbmUgbGFuZC11c2UgcGF0dGVybnMgYW5kIGZ1dHVyZSBsYW5kLXVzZSBzY2VuYXJpb3MgKFNsZWV0ZXIpDQogICsgQmFzZWxpbmUgZGlzdHVyYmFuY2UgYW5kIGZ1dHVyZSBwb3RlbnRpYWwgZGlzdHVyYmFuY2VzIChIYXdiYWtlciBhbmQgSGVubmUpLCBXaWxkZmlyZSBmaXJlLCBQcmVzY3JpYmVkIGZpcmUgKHdpdGggVGFsbCBUaW1iZXJzKQ0KKiBWZWdldGF0aW9uIGZlZWRiYWNrcyB3aXRoIGNsaW1hdGUgYW5kIGRpc3R1cmJhbmNlIChIZW5uZSBhbmQgVmFuZGVyaG9vZikNCiAgKyBTdWNjZXNzaW9uDQogICsgVHlwZSBjb252ZXJzaW9uDQoqIENsaW1hdGUgY2hhbmdlIHNjZW5hcmlvcyBhbmQgaW1wYWN0cw0KICArIFVzZSBBYmF0emdsb3XigJlzIGRhdGEgZm9yIENPTlVTIC0gaHR0cDovL3d3dy5jbGltYXRvbG9neWxhYi5vcmcvcHJvZHVjdHMuaHRtbA0KICArIE1pdGlnYXRpb24gYWN0aW9ucywgaW1wYWN0cywgYW5kIHNjZW5hcmlvcw0KICArIENhc2Ugc3R1ZGllcyB2cyBsYXJnZSBzY2FsZT8NCiAgKyBGdWVsIHRyZWF0bWVudHMgKEtyaWV0bGVyIGFuZCBIYXdiYWtlcikNCiAgKyBMYW5kIHVzZT8NCiAgKyBGb3Jlc3RyeSDigJMgcHJpbWFyaWx5IGhhcnZlc3RpbmcgcGF0dGVybnMgYW5kIG1ldGhvZHMNCiAgKyBSYW5nZWxhbmRzDQogICsgV2V0bGFuZHMgKFIuIFNsZWV0ZXI/KQ0KICArIEFncmljdWx0dXJlPw0KICArIERPSSBsYW5kcw0KICArIEVjb25vbWljcyBvZiBtaXRpZ2F0aW9uIGFjdGlvbnMgKEJhZ3N0YWQgYW5kIEtyZWl0bGVyIGFuZCBQaW5kaWxsaSk/DQoNCiogUGxhbm5lZCB0b3BpY3MgZm9yIGZ1dHVyZSBhc3Nlc3NtZW50cw0KICArIERpc3R1cmJhbmNlcw0KICArIEluc2VjdHMgdjMgKHdpdGggRlMgRkhBQVNUKQ0KICArIERyb3VnaHQgdjMgb3IgdjQgKEhlbm5lIGFuZCBDcmFpZyBBbGxlbuKAmXMgdGVhbSkNCg0KDQojIyMjIyBDcml0aWNhbCBkYXRhOg0KCSsgTVRCUyBhbmQgQkFFQ1Y/DQoJICArIFN1cmZhY2Ugd2F0ZXIgZXh0ZW50IEVDVj8NCgkrIExBTkRGSVJFIHZlZywgZnVlbHMsIGFuZCBkaXN0dXJiYW5jZXMgKGVzcGVjaWFsbHkgZnVlbCB0cmVhdG1lbnRzKT8NCgkrIE5MQ0QvTENNQVA/DQoJKyBCZXR0ZXIgd2V0bGFuZCBtYXBzPw0KICArIENsaW1hdGUgZGF0YSAtIGJhc2VsaW5lIGFuZCBwcm9qZWN0ZWQNCg0KIyMjIyMgTFVDQVMgTW9kZWwNCldlIHByb3Bvc2UgdG8gdXNlIHRoZSBVU0dTIExVQ0FTIG1vZGVsaW5nIGZyYW1ld29yayB0byBjb25kdWN0IHRoZSBhc3Nlc3NtZW50IFtAc2xlZXRlcjIwMThlZmZlY3RzXS4NCiogTW9kZWxpbmcgQXBwcm9hY2gNCiAgKyBMVUNBUyBtb2RlbCBhcyBhIG1vZGVsaW5nIGZyYW1ld29yay4NCiAgICArIEV4dGVybmFsIG1vZGVscyBlaXRoZXIgbGlua2VkIG9yIGNvdXBsZWQuIA0KICAgICsgTWluaW1pemUgYW1vdW50IG9mIHdvcmsgdGhhdCBjYW4gbm90IGJlIGNvbm5lY3RlZCAoaW4gY29kZSkuDQogICAgKyBTdGF0aXN0aWNhbCANCg0KIyMjIyMgSGlnaCBQZXJmb3JtYW5jZSBDb21wdXRpbmcgKEphc29uIEtyZWl0bGVyKQ0KKiBDcml0aWNhbCBpbmZyYXN0cnVjdHVyZToNCiAgKyBDb21wdXRpbmcgcG93ZXIgYW5kIHNoYXJlZCBzdG9yYWdlPyAgDQogICsgV2lsbCBZRVRJMiBiZSBvbmxpbmUgYXQgRVJPUz8NCiAgKyBDbG91ZCBzZXJ2aWNlcz8NCgkgICsgV29ya2luZyBhcmNoaXZlIGZvciBkYXRhLCBjb2RlLCBhbmQgbW9kZWxzPw0KCSAgDQojIyMjIyBEYXRhIGRlbGl2ZXJ5IGFuZCB2aXN1YWxpemF0aW9uIChTaGVyYmEpDQogICsgSW5wdXQgYW5kIG91dHB1dCBkYXRhDQogICsgTW9kZWxzL3NvdXJjZSBjb2RlIChpZiBwdWJsaWMpIG9yIGV4ZWN1dGFibGVzDQogICsgVmlzdWFsaXphdGlvbiB0b29scw0KDQojIyBUaW1lbGluZQ0KDQojIEMuIEJ1ZGdldA0KDQojIFJlZmVyZW5jZXMNCg0KDQoNCg0KDQo=</div>
 
 
 
