@@ -43,7 +43,7 @@ The 3-year project will consist of three priamry stages and will begin in earnes
 We propose to use the USGS LUCAS modeling framework to conduct the assessment [@sleeter2018effects].
 
 ### High Performance Computing (Jason Kreitler)
-
+We will parallelize the LUCAS modeling framework used in this assessment to efficiently model the computationally intensive collection of model runs, scenarios, timesteps, and spatial scales required to meet the objectives of this study. The LUCAS model will be parallelized for a high performance computing (HPC) environment by spatially stratifying models into smaller regions and distributing these jobs across a large compute cluster like the USGS’s YETI high performance computer. Previous application of the LUCAS model on YETI allowed the simulation of land use change over a CONUS extent with more Monte Carlo replicates and at a finer resolution than previous examples (could cite data release). Using lessons learned from () and (sleeter CA paper) we further develop the ability of the LUCAS model to simulate and model land use change and carbon accounting. 
 
 # Project Overview
 
