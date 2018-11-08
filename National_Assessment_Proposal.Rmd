@@ -188,6 +188,7 @@ We propose to use the USGS LUCAS modeling framework to conduct the assessment [@
 * Critical infrastructure:
   + Computing power and shared storage?  
   + Will YETI2 be online at EROS?
+  	+ (11/8) yup, we are working on a new machine to be installed at EROS. The RFP is out on the street right now, closing 12/3. We anticipate it to be around 1 PB high speed storage, 1.2 PB archival storage, 200ish nodes,  85-200Gbps network. Probably around 400-500 Tflop/s peak performance. If all goes well, most likely start installation in the Spring, with going live in the summer
   + Cloud services?
 	  + Working archive for data, code, and models?
 
