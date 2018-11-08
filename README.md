@@ -6,6 +6,6 @@ Rules: .rmd is authoritative/master. any changes made to .md do not replicate to
 
 Tasks:
 
-November 6, 2018: Jason Kreitler ~~to add~~ **added** a brief HPC computing paragraph to ..Proposal.rmd. 
+November 8, 2018: this git cloned to private repo https://code.usgs.gov/LUCC/landcarbon! 
 
 ![it begins!](https://thm.seejh.com/thumbs/64.jpg)
