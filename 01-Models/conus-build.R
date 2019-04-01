@@ -123,6 +123,131 @@ saveDatasheet(myProject, stateclassTypes, "STSim_StateClass", force = T, append 
 
 
 ######################################################
+# Define Transition Types and Groups
+######################################################
+
+# Transition Types ###################################
+sheetData = datasheet(myProject, "STSim_TransitionType", empty=T, optional=T)
+
+# Urbanization (Can only go to either Developed:Open or Developed:Low)
+sheetData = addRow(sheetData, data.frame(Name="Urbanization"))
+
+# Urban Intensity (Chagnes in Developed Intenisty)
+sheetData = addRow(sheetData, data.frame(Name="URB: Open->Low"))
+sheetData = addRow(sheetData, data.frame(Name="URB: Low->Medium"))
+sheetData = addRow(sheetData, data.frame(Name="URB: Medium->High"))
+
+# Ag Expansion
+sheetData = addRow(sheetData, data.frame(Name="Ag Expansion"))
+
+# Ag Contraction
+sheetData = addRow(sheetData, data.frame(Name="Ag Contraction"))
+
+# Forest Management
+sheetData = addRow(sheetData, data.frame(Name="FORMGT: Clearcut"))
+sheetData = addRow(sheetData, data.frame(Name="FORMGT: Selection"))
+sheetData = addRow(sheetData, data.frame(Name="FORMGT: PresFire"))
+sheetData = addRow(sheetData, data.frame(Name="FORMGT: ThinBelow"))
+
+# Ag Management
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: Harvest"))
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: OrchRemoval"))
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: Grazing"))
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: NoTill"))
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: Fertilizer"))
+sheetData = addRow(sheetData, data.frame(Name="AGMGT: Irrigation"))
+
+# Wildfire
+sheetData = addRow(sheetData, data.frame(Name="FIRE: HighSev"))
+sheetData = addRow(sheetData, data.frame(Name="FIRE: MedSev"))
+sheetData = addRow(sheetData, data.frame(Name="FIRE: LowSev"))
+
+# Drought
+sheetData = addRow(sheetData, data.frame(Name="DRGT: HighSev"))
+sheetData = addRow(sheetData, data.frame(Name="DRGT: MedSev"))
+sheetData = addRow(sheetData, data.frame(Name="DRGT: LowSev"))
+
+# Insects
+sheetData = addRow(sheetData, data.frame(Name="INSC: HighSev"))
+sheetData = addRow(sheetData, data.frame(Name="INSC: MedSev"))
+sheetData = addRow(sheetData, data.frame(Name="INSC: LowSev"))
+
+# Wind
+sheetData = addRow(sheetData, data.frame(Name="WIND: HighSev"))
+sheetData = addRow(sheetData, data.frame(Name="WIND: MedSev"))
+sheetData = addRow(sheetData, data.frame(Name="WIND: LowSev"))
+
+# Successional
+sheetData = addRow(sheetData, data.frame(Name="SUCC: Forest->Shrub"))
+sheetData = addRow(sheetData, data.frame(Name="SUCC: Shrub->Forest"))
+
+saveDatasheet(myProject, sheetData, "STSim_TransitionType")
+
+# Transition Groups  #################################
+sheetData = datasheet(myProject, "STSim_TransitionGroup", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Urbanization"))
+sheetData = addRow(sheetData, data.frame(Name="Ag Expansion"))
+sheetData = addRow(sheetData, data.frame(Name="Ag Contraction"))
+sheetData = addRow(sheetData, data.frame(Name="Forest Harvest"))
+sheetData = addRow(sheetData, data.frame(Name="Fire"))
+sheetData = addRow(sheetData, data.frame(Name="Drought Mortality"))
+sheetData = addRow(sheetData, data.frame(Name="Insect Mortality"))
+sheetData = addRow(sheetData, data.frame(Name="Wind"))
+saveDatasheet(myProject, sheetData, "STSim_TransitionGroup")
+
+# Transition Types by Group  #########################
+sheetData = datasheet(myProject, "STSim_TransitionTypeGroup", empty=T, optional=T)
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="Urbanization", TransitionGroupID="Urbanization"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="Ag Expansion", TransitionGroupID="Ag Expansion"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="Ag Contraction", TransitionGroupID="Ag Contraction"))
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FORMGT: Clearcut", TransitionGroupID="Forest Harvest"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FORMGT: Selection", TransitionGroupID="Forest Harvest"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FORMGT: ThinBelow", TransitionGroupID="Forest Harvest"))
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FIRE: HighSev", TransitionGroupID="Fire"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FIRE: MedSev", TransitionGroupID="Fire"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="FIRE: LowSev", TransitionGroupID="Fire"))
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="DRGT: HighSev", TransitionGroupID="Drought Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="DRGT: MedSev", TransitionGroupID="Drought Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="DRGT: LowSev", TransitionGroupID="Drought Mortality"))
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="INSC: HighSev", TransitionGroupID="Insect Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="INSC: MedSev", TransitionGroupID="Insect Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="INSC: LowSev", TransitionGroupID="Insect Mortality"))
+
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="WIND: HighSev", TransitionGroupID="Wind"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="WIND: MedSev", TransitionGroupID="Wind"))
+sheetData = addRow(sheetData, data.frame(TransitionTypeID="WIND: LowSev", TransitionGroupID="Wind"))
+
+saveDatasheet(myProject, sheetData, "STSim_TransitionTypeGroup")
+
+# Transition Simulation Group  #########################
+sheetData = datasheet(myProject, "STSim_TransitionSimulationGroup", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Urbanization"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Ag Expansion"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Ag Contraction"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Forest Harvest"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Fire"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Drought Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Insect Mortality"))
+sheetData = addRow(sheetData, data.frame(TransitionGroupID="Wind"))
+
+saveDatasheet(myProject, sheetData, "STSim_TransitionSimulationGroup")
+
+
+# Transition Multiplier Type #########################\
+sheetData = datasheet(myProject, "STSim_TransitionMultiplierType", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Type 1"))
+sheetData = addRow(sheetData, data.frame(Name="Type 2"))
+
+saveDatasheet(myProject, sheetData, "STSim_TransitionMultiplierType")
+
+
+
+######################################################
 # Define State Attributes
 ######################################################
 
