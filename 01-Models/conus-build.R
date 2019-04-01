@@ -122,30 +122,141 @@ saveDatasheet(myProject, stateclassTypes, "STSim_StateClass", force = T, append 
 
 
 
-
-######################################################
-# Define Transition Types and Groups
-######################################################
-
-
-
 ######################################################
 # Define State Attributes
 ######################################################
 
+# State Attribute Groups  ##############################
+sheetData = datasheet(myProject, "STSim_AttributeGroup", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="LULC"))
+sheetData = addRow(sheetData, data.frame(Name="Carbon Stocks"))
+sheetData = addRow(sheetData, data.frame(Name="NPP"))
+sheetData = addRow(sheetData, data.frame(Name="Albedo"))
+sheetData = addRow(sheetData, data.frame(Name="Demographic"))
 
+saveDatasheet(myProject, sheetData, "STSim_AttributeGroup", force=T, append=F)
+
+# State Attribute Types ##############################
+sheetData = datasheet(myProject, "STSim_StateAttributeType", empty=T, optional=T)
+sheetData = tibble(Name=stateClass$StateClass, AttributeGroupID="LULC", Units="1km")
+sheetData = addRow(sheetData, data.frame(Name="Developed:Open/Low", AttributeGroupID="LULC", Units="1km"))
+sheetData = addRow(sheetData, data.frame(Name="Forest:All", AttributeGroupID="LULC", Units="1km"))
+sheetData = addRow(sheetData, data.frame(Name="Agriculture:All", AttributeGroupID="LULC", Units="1km"))
+sheetData = addRow(sheetData, data.frame(Name="Wetland:All", AttributeGroupID="LULC", Units="1km"))
+
+sheetData = addRow(sheetData, data.frame(Name="NPP", AttributeGroupID="NPP", Units="kt/km2/yr"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: Foliage", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: Branch", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: Stem", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: Fine Root", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: Coarse Root", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM AGVF", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM AGF", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM AGM", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM AGS", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM BGVF", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM BGF", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+sheetData = addRow(sheetData, data.frame(Name="Stocks: DOM ABGS", AttributeGroupID="Carbon Stocks", Units="kt/km2"))
+
+sheetData = addRow(sheetData, data.frame(Name="Albedo", AttributeGroupID="Albedo", Units="%"))
+sheetData = addRow(sheetData, data.frame(Name="Demographic: Population", AttributeGroupID="Demographic", Units=""))
+sheetData = addRow(sheetData, data.frame(Name="Demographic: Housing", AttributeGroupID="Demographic", Units=""))
+sheetData = addRow(sheetData, data.frame(Name="Demographic: Buildings", AttributeGroupID="Demographic", Units=""))
+
+saveDatasheet(myProject, sheetData, "STSim_StateAttributeType", force=T, append=F)
 
 
 ######################################################
 # Define Distributions and External Variables
 ######################################################
 
+# Distributions ######################################
+sheetData = datasheet(myProject, "STime_DistributionType", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Dist: Urbanization"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Ag Expansion"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Ag Contraction"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Fire"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Clearcut"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Selection"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Harvest"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Drought"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Insects"))
+sheetData = addRow(sheetData, data.frame(Name="Dist: Wind"))
+
+saveDatasheet(myProject, sheetData, "STime_DistributionType", force=T, append=F)
+# External Variables #################################
+sheetData = datasheet(myProject, "STime_ExternalVariableType", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Urbanization"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Ag Expansion"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Ag Contraction"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Land Use Change"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Harvest"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Fire"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Drought"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Insects"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: Wind"))
+sheetData = addRow(sheetData, data.frame(Name="HistYear: All Change"))
+
+saveDatasheet(myProject, sheetData, "STime_ExternalVariableType", force=T, append=F)
 
 
 
 ######################################################
 # Define Carbon Stocks and Flows
 ######################################################
+
+# Carbon Stocks
+sheetData = datasheet(myProject, "SF_StockType", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Live Foliage"))
+sheetData = addRow(sheetData, data.frame(Name="Live Branch"))
+sheetData = addRow(sheetData, data.frame(Name="Live Stem"))
+sheetData = addRow(sheetData, data.frame(Name="Live Fine Root"))
+sheetData = addRow(sheetData, data.frame(Name="Live Coarse Root"))
+sheetData = addRow(sheetData, data.frame(Name="Snag Branch"))
+sheetData = addRow(sheetData, data.frame(Name="Snag Stem"))
+sheetData = addRow(sheetData, data.frame(Name="DOM AGVF"))
+sheetData = addRow(sheetData, data.frame(Name="DOM AGF"))
+sheetData = addRow(sheetData, data.frame(Name="DOM AGM"))
+sheetData = addRow(sheetData, data.frame(Name="DOM AGS"))
+sheetData = addRow(sheetData, data.frame(Name="DOM BGVF"))
+sheetData = addRow(sheetData, data.frame(Name="DOM BGF"))
+sheetData = addRow(sheetData, data.frame(Name="DOM BGS"))
+sheetData = addRow(sheetData, data.frame(Name="Atmosphere"))
+sheetData = addRow(sheetData, data.frame(Name="Ag Straw"))
+sheetData = addRow(sheetData, data.frame(Name="Ag Grain"))
+sheetData = addRow(sheetData, data.frame(Name="Aquatic"))
+sheetData = addRow(sheetData, data.frame(Name="HWP"))
+
+saveDatasheet(myProject, sheetData, "SF_StockType", force=T, append=F)
+
+# Carbon Stock Groups
+sheetData = datasheet(myProject, "SF_StockGroup", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Live"))
+sheetData = addRow(sheetData, data.frame(Name="DOM"))
+sheetData = addRow(sheetData, data.frame(Name="Litter"))
+sheetData = addRow(sheetData, data.frame(Name="Soil"))
+sheetData = addRow(sheetData, data.frame(Name="Standing Dead"))
+sheetData = addRow(sheetData, data.frame(Name="Down Dead"))
+sheetData = addRow(sheetData, data.frame(Name="Live Above Ground"))
+sheetData = addRow(sheetData, data.frame(Name="Live Below Ground"))
+sheetData = addRow(sheetData, data.frame(Name="Ag Products"))
+sheetData = addRow(sheetData, data.frame(Name="HWP"))
+sheetData = addRow(sheetData, data.frame(Name="Aquatic"))
+sheetData = addRow(sheetData, data.frame(Name="Atmosphere"))
+
+saveDatasheet(myProject, sheetData, "SF_StockGroup", force=T, append=F)
+
+# Carbon Flow Types
+sheetData = datasheet(myProject, "SF_FlowType", empty=T, optional=T)
+sheetData = addRow(sheetData, data.frame(Name="Growth"))
+sheetData = addRow(sheetData, data.frame(Name="Mortality"))
+sheetData = addRow(sheetData, data.frame(Name="Litterfall"))
+sheetData = addRow(sheetData, data.frame(Name="Decay"))
+sheetData = addRow(sheetData, data.frame(Name="Humification"))
+sheetData = addRow(sheetData, data.frame(Name="Emission"))
+sheetData = addRow(sheetData, data.frame(Name="Leaching"))
+sheetData = addRow(sheetData, data.frame(Name="Harvest"))
+
 
 
 
